@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+_config.yml
+404.html
+about.markdown
+Gemfile
+Gemfile.lock
+index.markdown
