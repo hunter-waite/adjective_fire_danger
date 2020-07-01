@@ -57,8 +57,11 @@ def get_dates():
         today: Todays date in dd-MMM-yy format
         yesterday: Yesterdays date in dd-MMM-yy format
     """
+
     today = datetime.date.today()
     yesterday = today - datetime.timedelta(days=1)
+
+    print("Time is: ", datetime.time())
 
     print(today, yesterday)
 
