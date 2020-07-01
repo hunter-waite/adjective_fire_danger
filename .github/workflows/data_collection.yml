@@ -1,6 +1,6 @@
 name: Data Collection
 
-on: 
+on:
   schedule:
     - cron: '*/5 * * * *'
 
@@ -11,10 +11,6 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-    
-    defaults:
-      run:
-        working-directory: scripts
 
     steps:
     - uses: actions/checkout@v2
