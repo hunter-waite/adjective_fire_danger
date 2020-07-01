@@ -1,5 +1,6 @@
 import xml.etree.ElementTree as ET
 import urllib.request
+import datetime
 from pprint import pprint
 
 def main():
@@ -27,6 +28,7 @@ def main():
         dt = child.find("nfdr_dt")
         print(adj.text, tm.text, dt.text)
 
+    get_dates()
 
 def get_dates():
     """ Gets the dates to be used in the various URL's
