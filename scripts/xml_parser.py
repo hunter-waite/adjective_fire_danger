@@ -18,8 +18,10 @@ def main():
     root = tree.getroot()
 
     for child in root:
-        temp = child.findall("adj":)
-        for adj in child.findall("adj"):
+        temp = child.findall("adj")
+        if len(temp) == 0:
+            continue;
+        for adj in temp:
             print(adj.text)
 
 if __name__ == "__main__":

@@ -31,4 +31,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Collect the data
       run: |
-        python3 xml_parser.py
+        python3 scripts/xml_parser.py
