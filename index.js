@@ -1,7 +1,7 @@
 
-const LA_PANZA    = 44904
+const LA_PANZA    = 44904 // inland
 const LAS_TABLAS  = 44971
-const SLO         = "44915"
+const SLO         = "44915" // coastal
 const SAN_SIMEON  = 44917
 
 function init() {
