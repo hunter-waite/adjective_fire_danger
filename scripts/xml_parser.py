@@ -1,3 +1,6 @@
+import xml.etree.ElementTree as ET
+import urllib.request
+
 
 def main():
     print("Hello poppit")
