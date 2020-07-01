@@ -2,7 +2,7 @@ name: Data Collection
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/59 * * * *'
 
 jobs:
   build:
