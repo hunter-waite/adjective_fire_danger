@@ -1,7 +1,6 @@
 
-def main() {
+def main():
     print("Hello poppit")
-}
 
 
 if __name__ == "__main__":
