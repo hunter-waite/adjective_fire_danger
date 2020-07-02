@@ -18,9 +18,11 @@ def main():
 
 
 def parse_xml(station, root):
-    """ Parses the XML tree for the adjective fire danger ratings that we want
+    """ Parses the XML tree for the adjective fire danger ratings that we want,
+    writes data to file as well as print to console
 
     Args:
+        station: The array that holds the station number and name
         root: The root of the xml tree to be looked at
 
     """
