@@ -1,26 +1,23 @@
 import xml.etree.ElementTree as ET
 import urllib.request
 import datetime
-from pprint import pprint
 import pytz
+from pprint import pprint
 from pytz import timezone
 
 
 def main():
-
     today, yesterday, tm = get_dates()
 
-    root = get_xml(44914, yesterday, today)
-    parse_xml(root)
-    root = get_xml(44904, yesterday, today)
-    parse_xml(root)
-    root = get_xml(44915, yesterday, today)
-    parse_xml(root)
-    root = get_xml(44917, yesterday, today)
-    parse_xml(root)
+    for station in [[44914, "LA_PANZA"],\
+                    [44904, "LAS_TABLAS"],\
+                    [44915, "SLO"],\
+                    [44917, "SAN_SIMEON"]]:
+        root = get_xml(station[0], yesterday, today)
+        parse_xml(station, root)
 
 
-def parse_xml(root):
+def parse_xml(station, root):
     """ Parses the XML tree for the adjective fire danger ratings that we want
 
     Args:
@@ -28,6 +25,8 @@ def parse_xml(root):
 
     """
     print(root[0][1].text)
+
+    f = open("xml/" + station[1] + ".txt", "w")
 
     for child in root:
         adj = child.find("adj")
@@ -37,7 +36,10 @@ def parse_xml(root):
 
         tm = child.find("nfdr_tm")
         dt = child.find("nfdr_dt")
+        f.write(adj.text + tm.text + " " + dt.text + "\n")
         print(adj.text, tm.text, dt.text)
+
+    f.close()
 
 
 def get_xml(station, start, end):
@@ -61,11 +63,11 @@ def get_xml(station, start, end):
 
     response = urllib.request.urlopen(url).read()
 
-    f = open("xml/test.xml", "w")
+    f = open("xml/temp.xml", "w")
     f.write(response.decode("utf-8"))
     f.close()
 
-    tree = ET.parse("xml/test.xml")
+    tree = ET.parse("xml/temp.xml")
     root = tree.getroot()
 
     return root
