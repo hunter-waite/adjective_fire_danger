@@ -2,6 +2,9 @@ import xml.etree.ElementTree as ET
 import urllib.request
 import datetime
 from pprint import pprint
+import pytz
+from pytz import timezone
+
 
 def main():
 
@@ -33,7 +36,7 @@ def get_xml(station, start, end):
         root: the root of the xml tree from the data
     """
 
-    url = "https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44915&start=30-Jun-20&end=01-Jul-20&ndays=&sort=";
+    url = "https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=44915&start=01-Jul-20&end=02-Jul-20&ndays=&sort=&type=";
 
     print("URL being used:")
     print(url)
@@ -61,7 +64,12 @@ def get_dates():
     today = datetime.date.today()
     yesterday = today - datetime.timedelta(days=1)
 
-    print("Time is: ", datetime.time())
+    utc_current = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
+    pst_zone = pytz.timezone('US/Pacific')
+    pst_current = pst_zone.normalize(utc_current.astimezone(pst_zone))
+    print(pst_current)
+
+    print("Time is: ", datetime.datetime.now())
 
     print(today, yesterday)
 
