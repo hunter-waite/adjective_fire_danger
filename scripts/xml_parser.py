@@ -7,13 +7,20 @@ from pytz import timezone
 
 
 def main():
+    """ Retrieves and stores XML data for the current day and previous day to determine
+    the adjective fire danger at each station listed:
+    [LA_PANZA, LAS_TABLAS, SLO, SAN_SIMEON]
+    """
     today, yesterday, tm = get_dates()
 
+    # stations typically used in FDOP looped through
     for station in [[44914, "LA_PANZA"],\
                     [44904, "LAS_TABLAS"],\
                     [44915, "SLO"],\
                     [44917, "SAN_SIMEON"]]:
+        # retrieve the root of xml tree
         root = get_xml(station[0], yesterday, today)
+        # parse root for data
         parse_xml(station, root)
 
 
@@ -76,7 +83,8 @@ def get_xml(station, start, end):
 
 
 def get_dates():
-    """ Gets the dates to be used in the various URL's
+    """ Gets dates for today and yesterday as well as time in PST, Formats
+    dates for correct usage in the URL
 
     Returns:
         today: Todays date in dd-MMM-yy format
