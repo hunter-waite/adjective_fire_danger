@@ -35,7 +35,7 @@ jobs:
     - name: Collect the data
       run: |
         python3 scripts/xml_parser.py
-
+      if: always()
     - name: Committing Files
       run: |
         git config --local user.name "hunter-waite"
