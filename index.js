@@ -8,45 +8,51 @@ function init() {
   updateSmokeys();
 }
 
+// updates the smokey bear images on load
 function updateSmokeys() {
+  // loop through all stations LAS_TABLAS used for inland and SLO used for coastal
   for (station of [["LAS_TABLAS", "smokey_bear_inland"],
-                  ["LA_PANZA", "smokey_bear_inland"],
-                  ["SLO", "smokey_bear_coastal"],
-                  ["SAN_SIMEON", "smokey_bear_coastal"]]) {
+                  ["SLO", "smokey_bear_coastal"]]) {
 
     parseStation(station[0], station[1]);
     console.log("-------------------------------------------------------------");
   }
 }
 
+// parses data to display the correct smokey bear image
 function parseStation(station, type) {
 
   console.log("Loading data for: ", station)
+
+  // loads file and splits at newline
   var text = loadFile("xml/".concat(station, ".txt"));
   text = text.split("\n");
-  for(adj of text) {
-    console.log(adj);
-    adj = adj.split(" ");
-    switch(adj[0]) {
-      case 'L':
-        document.getElementById(type).setAttribute('src', './img/low.png');
-        break;
-      case 'M':
-        document.getElementById(type).setAttribute('src', './img/moderate.png');
-        break;
-      case 'H':
-        document.getElementById(type).setAttribute('src', './img/high.png');
-        break;
-      case 'V':
-        document.getElementById(type).setAttribute('src', './img/veryhigh.png');
-        break;
-      case 'E':
-        document.getElementById(type).setAttribute('src', './img/extreme.png');
-        break;
-    }
+  console.log(text[0]);
+
+  // pulls first line as that is the most recent report and uses that
+  adj = text[0].split(" ");
+
+  // first single letter will always be one of the 5, selects smokey bear image
+  switch(adj[0]) {
+    case 'L':
+      document.getElementById(type).setAttribute('src', './img/low.png');
+      break;
+    case 'M':
+      document.getElementById(type).setAttribute('src', './img/moderate.png');
+      break;
+    case 'H':
+      document.getElementById(type).setAttribute('src', './img/high.png');
+      break;
+    case 'V':
+      document.getElementById(type).setAttribute('src', './img/veryhigh.png');
+      break;
+    case 'E':
+      document.getElementById(type).setAttribute('src', './img/extreme.png');
+      break;
   }
 }
 
+// loads in the data from the XML folder using a GET request
 function loadFile(filePath) {
   var result = null;
   var xmlhttp = new XMLHttpRequest();
