@@ -10,7 +10,7 @@ Using a github actions yaml file an action occurs every hour that runs
 This code functions to pull data from hourly updated files and display the
 correct corresponding smokey bear image
 
-##### *Functions*
+#### *Functions*
   *  *updateSmokeys()*  - loops through the stations used for smokey bear
   *  *parseStation()*   - gets the XML of the given station and sets the corresponding smokey to it
   *  *loadFile()*       - opens the file and gets the text for the data required of smokey
