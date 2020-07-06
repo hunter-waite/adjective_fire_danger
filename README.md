@@ -1,4 +1,4 @@
-# ** SMOKEY BEAR **
+# **SMOKEY BEAR**
 Pulls Data from the RAWS stations and uses the most recent adjective fire rating
 to determine fire danger for that specific day
 
@@ -29,4 +29,4 @@ station numbers to retrieve and store XML data from the WIMS web service to be p
     dates for correct usage in the URL
 
 ## **index.html**
-Start page of the adjective fire danger, 
+Start page of the adjective fire danger,
