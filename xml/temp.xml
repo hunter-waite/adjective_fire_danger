@@ -37,6 +37,7 @@
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
       <longitude>-121.1142</longitude>
+<<<<<<< HEAD
       <nfdr_dt>07/06/2020</nfdr_dt>
       <nfdr_tm>8</nfdr_tm>
       <nfdr_type>S</nfdr_type>
@@ -69,6 +70,8 @@
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
       <longitude>-121.1142</longitude>
+=======
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <nfdr_dt>07/06/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -94,7 +97,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="4">
+=======
+   <row num="3">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -124,7 +131,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="5">
+=======
+   <row num="4">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -154,7 +165,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="6">
+=======
+   <row num="5">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -184,7 +199,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="7">
+=======
+   <row num="6">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -214,7 +233,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="8">
+=======
+   <row num="7">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -246,7 +269,11 @@
       <woody_gsi>0</woody_gsi>
       <adj>L </adj>
    </row>
+<<<<<<< HEAD
    <row num="9">
+=======
+   <row num="8">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -278,12 +305,17 @@
       <woody_gsi>0</woody_gsi>
       <adj>L </adj>
    </row>
+<<<<<<< HEAD
    <row num="10">
+=======
+   <row num="9">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
       <longitude>-121.1142</longitude>
       <nfdr_dt>07/05/2020</nfdr_dt>
+<<<<<<< HEAD
       <nfdr_tm>14</nfdr_tm>
       <nfdr_type>S</nfdr_type>
       <mp>1</mp>
@@ -298,24 +330,7 @@
       <sc>5.4</sc>
       <ec>27.8</ec>
       <bi>30.1</bi>
-      <sl>1 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>21</fl>
-      <hrb>106</hrb>
-      <wdy>136.2</wdy>
-      <herb_gsi>0</herb_gsi>
-      <woody_gsi>0</woody_gsi>
-      <adj>L </adj>
-   </row>
-   <row num="11">
-      <sta_id>44917</sta_id>
-      <sta_nm>SAN SIMEON</sta_nm>
-      <latitude>  35.6050</latitude>
-      <longitude>-121.1142</longitude>
-      <nfdr_dt>07/05/2020</nfdr_dt>
+=======
       <nfdr_tm>8</nfdr_tm>
       <nfdr_type>S</nfdr_type>
       <mp>1</mp>
@@ -330,24 +345,49 @@
       <sc>3.8</sc>
       <ec>26.4</ec>
       <bi>25</bi>
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sl>1 </sl>
       <lr>0</lr>
       <lo>0</lo>
       <hr>0</hr>
       <ho>0</ho>
+<<<<<<< HEAD
+      <fl>21</fl>
+=======
       <fl>18</fl>
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <hrb>106</hrb>
       <wdy>136.2</wdy>
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
       <adj>L </adj>
    </row>
-   <row num="12">
+<<<<<<< HEAD
+   <row num="11">
+=======
+   <row num="10">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
       <longitude>-121.1142</longitude>
       <nfdr_dt>07/05/2020</nfdr_dt>
+<<<<<<< HEAD
+      <nfdr_tm>8</nfdr_tm>
+      <nfdr_type>S</nfdr_type>
+      <mp>1</mp>
+      <msgc>7G1A3</msgc>
+      <one_hr>10.02</one_hr>
+      <ten_hr>11.47</ten_hr>
+      <hu_hr>17</hu_hr>
+      <th_hr>18</th_hr>
+      <xh_hr>16</xh_hr>
+      <ic>8.3</ic>
+      <kbdi>198</kbdi>
+      <sc>3.8</sc>
+      <ec>26.4</ec>
+      <bi>25</bi>
+=======
       <nfdr_tm>16</nfdr_tm>
       <nfdr_type>S</nfdr_type>
       <mp>1</mp>
@@ -362,6 +402,64 @@
       <sc>5.3</sc>
       <ec>27.4</ec>
       <bi>29.7</bi>
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
+      <sl>1 </sl>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+<<<<<<< HEAD
+      <fl>18</fl>
+=======
+      <fl>21</fl>
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
+      <hrb>106</hrb>
+      <wdy>136.2</wdy>
+      <herb_gsi>0</herb_gsi>
+      <woody_gsi>0</woody_gsi>
+      <adj>L </adj>
+   </row>
+<<<<<<< HEAD
+   <row num="12">
+=======
+   <row num="11">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
+      <sta_id>44917</sta_id>
+      <sta_nm>SAN SIMEON</sta_nm>
+      <latitude>  35.6050</latitude>
+      <longitude>-121.1142</longitude>
+      <nfdr_dt>07/05/2020</nfdr_dt>
+<<<<<<< HEAD
+      <nfdr_tm>16</nfdr_tm>
+      <nfdr_type>S</nfdr_type>
+      <mp>1</mp>
+      <msgc>7G1A3</msgc>
+      <one_hr>8.56</one_hr>
+      <ten_hr>10.31</ten_hr>
+      <hu_hr>17</hu_hr>
+      <th_hr>18</th_hr>
+      <xh_hr>16</xh_hr>
+      <ic>13.2</ic>
+      <kbdi>198</kbdi>
+      <sc>5.3</sc>
+      <ec>27.4</ec>
+      <bi>29.7</bi>
+=======
+      <nfdr_tm>14</nfdr_tm>
+      <nfdr_type>S</nfdr_type>
+      <mp>1</mp>
+      <msgc>7G1A3</msgc>
+      <one_hr>8.02</one_hr>
+      <ten_hr>9.87</ten_hr>
+      <hu_hr>17</hu_hr>
+      <th_hr>18</th_hr>
+      <xh_hr>16</xh_hr>
+      <ic>14.9</ic>
+      <kbdi>198</kbdi>
+      <sc>5.4</sc>
+      <ec>27.8</ec>
+      <bi>30.1</bi>
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sl>1 </sl>
       <lr>0</lr>
       <lo>0</lo>
@@ -374,7 +472,11 @@
       <woody_gsi>0</woody_gsi>
       <adj>L </adj>
    </row>
+<<<<<<< HEAD
    <row num="13">
+=======
+   <row num="12">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -404,7 +506,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="14">
+=======
+   <row num="13">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -434,7 +540,11 @@
       <herb_gsi>1</herb_gsi>
       <woody_gsi>1</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="15">
+=======
+   <row num="14">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -464,7 +574,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="16">
+=======
+   <row num="15">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -494,7 +608,11 @@
       <herb_gsi>1</herb_gsi>
       <woody_gsi>1</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="17">
+=======
+   <row num="16">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -524,7 +642,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="18">
+=======
+   <row num="17">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -554,7 +676,11 @@
       <herb_gsi>1</herb_gsi>
       <woody_gsi>1</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="19">
+=======
+   <row num="18">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -584,7 +710,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="20">
+=======
+   <row num="19">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -614,7 +744,11 @@
       <herb_gsi>1</herb_gsi>
       <woody_gsi>1</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="21">
+=======
+   <row num="20">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
@@ -644,7 +778,11 @@
       <herb_gsi>0.95</herb_gsi>
       <woody_gsi>0.95</woody_gsi>
    </row>
+<<<<<<< HEAD
    <row num="22">
+=======
+   <row num="21">
+>>>>>>> a614d6d431f3fc68eed183e8b266721221d51791
       <sta_id>44917</sta_id>
       <sta_nm>SAN SIMEON</sta_nm>
       <latitude>  35.6050</latitude>
