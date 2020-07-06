@@ -37,11 +37,13 @@ jobs:
       run: |
         date
         python3 scripts/xml_parser.py
+      if: always()
     - name: Committing Files
       run: |
         git config --local user.name "hunter-waite"
         git add ./xml
         git commit -m "Auto updating xml and data"
+      if: always()
     - name: Pushing changes
       uses: ad-m/github-push-action@master
       with:
