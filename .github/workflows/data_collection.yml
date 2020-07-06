@@ -2,7 +2,7 @@ name: Data Collection
 
 on:
   schedule:
-   # - cron: '*/59 * * * *'
+   - cron: '*/59 * * * *'
 
 jobs:
   build:
@@ -21,7 +21,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
@@ -35,4 +34,15 @@ jobs:
         pip install pytz
     - name: Collect the data
       run: |
+        date
         python3 scripts/xml_parser.py
+    - name: Committing Files
+      run: |
+        git config --local user.name "hunter-waite"
+        git add ./xml
+        git commit -m "Auto updating xml and data"
+    - name: Pushing changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: $({ secrets.GITHUB_TOKEN })
+        force: true
