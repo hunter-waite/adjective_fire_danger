@@ -252,31 +252,31 @@
       <latitude>  35.3030</latitude>
       <longitude>-120.6787</longitude>
       <nfdr_dt>07/07/2020</nfdr_dt>
-      <nfdr_tm>14</nfdr_tm>
+      <nfdr_tm>8</nfdr_tm>
       <nfdr_type>S</nfdr_type>
       <mp>1</mp>
       <msgc>7G1A3</msgc>
-      <one_hr>6.28</one_hr>
-      <ten_hr>7.65</ten_hr>
+      <one_hr>6.52</one_hr>
+      <ten_hr>7.85</ten_hr>
       <hu_hr>13.16</hu_hr>
       <th_hr>14.36</th_hr>
       <xh_hr>12.55</xh_hr>
-      <ic>23.9</ic>
+      <ic>14.7</ic>
       <kbdi>432</kbdi>
-      <sc>7</sc>
-      <ec>43.6</ec>
-      <bi>41.9</bi>
-      <sl>4 </sl>
+      <sc>2.9</sc>
+      <ec>43.4</ec>
+      <bi>27.8</bi>
+      <sl>1 </sl>
       <lr>0</lr>
       <lo>0</lo>
       <hr>0</hr>
       <ho>0</ho>
-      <fl>30</fl>
+      <fl>20</fl>
       <hrb>30.4</hrb>
       <wdy>105.3</wdy>
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
-      <adj>H </adj>
+      <adj>L </adj>
    </row>
    <row num="10">
       <sta_id>44915</sta_id>
@@ -316,31 +316,31 @@
       <latitude>  35.3030</latitude>
       <longitude>-120.6787</longitude>
       <nfdr_dt>07/07/2020</nfdr_dt>
-      <nfdr_tm>8</nfdr_tm>
+      <nfdr_tm>14</nfdr_tm>
       <nfdr_type>S</nfdr_type>
       <mp>1</mp>
       <msgc>7G1A3</msgc>
-      <one_hr>6.52</one_hr>
-      <ten_hr>7.85</ten_hr>
+      <one_hr>6.28</one_hr>
+      <ten_hr>7.65</ten_hr>
       <hu_hr>13.16</hu_hr>
       <th_hr>14.36</th_hr>
       <xh_hr>12.55</xh_hr>
-      <ic>14.7</ic>
+      <ic>23.9</ic>
       <kbdi>432</kbdi>
-      <sc>2.9</sc>
-      <ec>43.4</ec>
-      <bi>27.8</bi>
-      <sl>1 </sl>
+      <sc>7</sc>
+      <ec>43.6</ec>
+      <bi>41.9</bi>
+      <sl>4 </sl>
       <lr>0</lr>
       <lo>0</lo>
       <hr>0</hr>
       <ho>0</ho>
-      <fl>20</fl>
+      <fl>30</fl>
       <hrb>30.4</hrb>
       <wdy>105.3</wdy>
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
-      <adj>L </adj>
+      <adj>H </adj>
    </row>
    <row num="12">
       <sta_id>44915</sta_id>
