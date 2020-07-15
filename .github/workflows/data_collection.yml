@@ -1,4 +1,4 @@
-name: Data Collection
+name: Data_Collection
 
 on:
   schedule:
