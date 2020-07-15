@@ -16,6 +16,7 @@ def main():
     # stations typically used in FDOP looped through
     for station in [[44914, "LA_PANZA"],\
                     [44904, "LAS_TABLAS"],\
+                    [44917, "SAN_SIMEON"],\
                     [44915, "SLO"]]:
         # retrieve the root of xml tree
         root = get_xml(station[0], yesterday, today)
