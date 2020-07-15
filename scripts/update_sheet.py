@@ -5,6 +5,9 @@ from pprint import pprint
 from pytz import timezone
 
 def main():
+    """ Used to update a google sheet with the information retireved by xml_parser
+    Note that this gets run every day at 9 am so the adjective_fire_rating will
+    be the prediction that was posted for that day """
     # Gets access to the google sheet
     fd_sheet = get_sheet()
     # Row to be added on to the google sheet
@@ -37,7 +40,7 @@ def get_date_and_rating(station):
         date: the date from the most recent update
         rating: the adjective fire danger rating
     """
-
+    # creates standardized file location and opens it
     file_location = "xml/" + station + ".txt"
     f = open(file_location)
 
@@ -53,8 +56,11 @@ def get_sheet():
     Returns:
         sheet: access token to the first sheet of the Fire Danger workbook
     """
+    # connect to the service account from google's API
     gc = gspread.service_account(filename="fire_danger_secrets.json")
+    # get the specific google workbook with its url key
     sh = gc.open_by_key("1HwVdSH6etFwk1fdwfl7U0CJESmFMbmA2_H-cAPvgCXE")
+    # get the first and only sheet
     sheet = sh.sheet1
     return sheet
 
@@ -76,6 +82,7 @@ def get_formatted_date():
     # Formats the dates correctly
     dt = today.strftime("%m/%d/%Y")
     return dt
+
 
 if __name__ == "__main__":
     main()

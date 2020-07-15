@@ -18,6 +18,8 @@ correct corresponding smokey bear image
 ## **xml_parser.py**
 This script is run through an Ubuntu machine hosted by github. It uses the date and predefined
 station numbers to retrieve and store XML data from the WIMS web service to be processed later
+
+#### *Functions*
   * *main()* - Retrieves and stores XML data for the current day and previous day to determine
     the adjective fire danger at each station listed:
     [LA_PANZA, LAS_TABLAS, SLO, SAN_SIMEON]
@@ -28,5 +30,14 @@ station numbers to retrieve and store XML data from the WIMS web service to be p
   * *get_dates()* - Gets dates for today and yesterday as well as time in PST, Formats
     dates for correct usage in the URL
 
+## **update_sheet.py**
+This code functions to update a google sheet that produces a graph representing the last 30 days of fire danger
+
+#### *Functions*
+  * *main()* - Updates the google sheet with the data pulled from the XML parser, gets run every day at 9 am locally on SLUG
+  * *get_date_and_rating()* - Gets the date and adjective fire rating for a particular station
+  * *get_sheet()* - Gets the first sheet of the workbook that holds the fire danger rating
+  * *get_formatted_date()* - Gets the formatted current date for checking correct data
+  
 ## **index.html**
 Start page of the adjective fire danger,
