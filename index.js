@@ -10,7 +10,7 @@ function init() {
 
 // updates the smokey bear images on load
 function updateSmokeys() {
-  // loop through all stations LAS_TABLAS used for inland and SLO used for coastal
+  // loop through all stations; LAS_TABLAS used for inland and SLO used for coastal
   for (station of [["LAS_TABLAS", "smokey_bear_inland"],
                   ["SLO", "smokey_bear_coastal"]]) {
 
