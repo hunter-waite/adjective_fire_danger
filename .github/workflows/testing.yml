@@ -1,6 +1,6 @@
 name: Data Collection On Push
 
-on: [push]
+on: push
 
 jobs:
   build:
