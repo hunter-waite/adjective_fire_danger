@@ -1,4 +1,4 @@
-# **SMOKEY BEAR**
+# **Adjective Fire Danger/Smokey Bear**
 Pulls Data from the RAWS stations and uses the most recent adjective fire rating
 to determine fire danger for that specific day
 
@@ -38,6 +38,10 @@ This code functions to update a google sheet that produces a graph representing 
   * *get_date_and_rating()* - Gets the date and adjective fire rating for a particular station
   * *get_sheet()* - Gets the first sheet of the workbook that holds the fire danger rating
   * *get_formatted_date()* - Gets the formatted current date for checking correct data
-  
+
 ## **index.html**
 Start page of the adjective fire danger,
+
+## **sheets_update.bat**
+Batch file that gets run on SLUG every morning that grabs current information to put into the spreadsheet. Must be done locally, if
+it gets done through github actions then you would have to upload the json file that gives access to the google sheets

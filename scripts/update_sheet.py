@@ -16,6 +16,8 @@ def main():
     dt = get_formatted_date()
     new_row.append(dt)
 
+
+
     # loops through all the typical FDOP stations to get data
     for station in ["LA_PANZA", "LAS_TABLAS", "SLO", "SAN_SIMEON"]:
         # gets date and time
