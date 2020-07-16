@@ -17,10 +17,10 @@ def main():
     new_row.append(dt)
 
     # loops through all the typical FDOP stations to get data
-    for station in ["LA_PANZA", "LAS_TABLAS", "SAN_SIMEON", "SLO"]:
+    for station in ["LA_PANZA", "LAS_TABLAS", "SLO", "SAN_SIMEON"]:
         # gets date and time
         date, rating = get_date_and_rating(station)
-        # if teh dates don't match then it is incorrect data do nothing
+        # if the dates don't match then it is incorrect data do nothing
         if date != dt:
             new_row.append(" ")
         else:

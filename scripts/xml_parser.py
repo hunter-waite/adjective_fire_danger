@@ -11,8 +11,9 @@ def main():
     the adjective fire danger at each station listed:
     [LA_PANZA, LAS_TABLAS, SLO, SAN_SIMEON]
     """
-    today, yesterday, tm = get_dates()
 
+    today, yesterday, tm = get_dates()
+    
     # stations typically used in FDOP looped through
     for station in [[44914, "LA_PANZA"],\
                     [44904, "LAS_TABLAS"],\
@@ -31,7 +32,6 @@ def parse_xml(station, root):
     Args:
         station: The array that holds the station number and name
         root: The root of the xml tree to be looked at
-
     """
     print(root[0][1].text)
 
@@ -105,6 +105,8 @@ def get_dates():
     # Formats the dates correctly
     td = today.strftime("%d-%b-%y")
     yd = yesterday.strftime("%d-%b-%y")
+
+    print(td, yd)
 
     return td, yd, tm
 

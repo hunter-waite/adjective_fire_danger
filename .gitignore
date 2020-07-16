@@ -10,3 +10,4 @@ Gemfile
 Gemfile.lock
 index.markdown
 fire_danger_secrets.json
+__pycache__
