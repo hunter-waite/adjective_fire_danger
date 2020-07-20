@@ -13,7 +13,7 @@ def main():
     """
 
     today, yesterday, tm = get_dates()
-    
+
     # stations typically used in FDOP looped through
     for station in [[44914, "LA_PANZA"],\
                     [44904, "LAS_TABLAS"],\
@@ -66,6 +66,7 @@ def get_xml(station, start, end):
 
     url = "https://fam.nwcg.gov/wims/xsql/nfdrs.xsql?stn=" + str(station) + \
           "&start=" + start + "&end=" + end +"&ndays=&sort=&type=";
+
 
     print("URL being used:")
     print(url)
