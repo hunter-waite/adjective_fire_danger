@@ -34,7 +34,7 @@ station numbers to retrieve and store XML data from the WIMS web service to be p
 This code functions to update a google sheet that produces a graph representing the last 30 days of fire danger
 
 #### *Functions*
-  * *main()* - Updates the google sheet with the data pulled from the XML parser, gets run every day at 9 am locally on SLUG
+  * *main()* - Updates the google sheet with the data pulled from the XML parser, gets run every day at 9 am locally on the x-drive
   * *get_date_and_rating()* - Gets the date and adjective fire rating for a particular station
   * *get_sheet()* - Gets the first sheet of the workbook that holds the fire danger rating
   * *get_formatted_date()* - Gets the formatted current date for checking correct data
