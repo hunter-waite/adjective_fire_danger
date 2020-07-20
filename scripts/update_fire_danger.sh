@@ -6,13 +6,23 @@
 
 echo "Moving to correct working directory"
 pwd
-cd ..
+cd ../volume1/public/_projects/Software/adjective_fire_danger
 pwd
 
 echo "Running xml_parser.py"
 python3 scripts/xml_parser.py
-echo "Finished parsing and updataing the XML data"
+if [ $? -eq 0 ]; then
+	echo "Finished parsing and updataing the XML data"
+else
+	echo "Failed to run xml_parser.py"
+fi
 
 echo "Running update_sheets.py"
 python3 scripts/update_sheet.py
-echo "Finished updating the google sheet"
+if [ $? -eq 0 ]; then
+	echo "Finished updating the google sheet"
+else
+	echo "Failed to run update_sheets.py"
+fi
+
+echo "Finished"
