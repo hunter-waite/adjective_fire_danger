@@ -27,6 +27,7 @@ def main():
             new_row.append(" ")
         else:
             new_row.append(rating)
+        new_row.append(None)
 
     # append the new row to the top of the data
     fd_sheet.insert_row(new_row, index=4)

@@ -11,9 +11,9 @@ This code functions to pull data from hourly updated files and display the
 correct corresponding smokey bear image
 
 #### *Functions*
-  *  *updateSmokeys()*  - loops through the stations used for smokey bear
-  *  *parseStation()*   - gets the XML of the given station and sets the corresponding smokey to it
-  *  *loadFile()*       - opens the file and gets the text for the data required of smokey
+  *  *updateSmokeys()* - loops through the stations used for smokey bear
+  *  *parseStation()* - gets the XML of the given station and sets the corresponding smokey to it
+  *  *loadFile()* - opens the file and gets the text for the data required of smokey
 
 ## **xml_parser.py**
 This script is run through an Ubuntu machine hosted by github. It uses the date and predefined
