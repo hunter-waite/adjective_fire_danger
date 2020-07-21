@@ -1,6 +1,6 @@
 # **Adjective Fire Danger/Smokey Bear**
 Pulls Data from the RAWS stations and uses the most recent adjective fire rating
-to determine fire danger for that specific day
+to determine fire danger for that specific day.
 
 ## **Workflow**
 Using a github actions yaml file an action occurs every hour that runs
@@ -34,14 +34,26 @@ station numbers to retrieve and store XML data from the WIMS web service to be p
 This code functions to update a google sheet that produces a graph representing the last 30 days of fire danger
 
 #### *Functions*
-  * *main()* - Updates the google sheet with the data pulled from the XML parser, gets run every day at 9 am locally on SLUG
+  * *main()* - Updates the google sheet with the data pulled from the XML parser, gets run every day at 9 am locally on the x-drive
   * *get_date_and_rating()* - Gets the date and adjective fire rating for a particular station
   * *get_sheet()* - Gets the first sheet of the workbook that holds the fire danger rating
   * *get_formatted_date()* - Gets the formatted current date for checking correct data
 
 ## **index.html**
-Start page of the adjective fire danger,
+Start page of the adjective fire danger
+
+## **update_fire_danger.sh**
+This is the file that gets run on the x-drive every morning at 9 am and grabs the prediction for the adjective fire danger
+on that day. It runs scripts/xml_parser.py and scripts/update_sheet.py to update the google sheets that create the graphs
+for the last 30 and 90 days
 
 ## **sheets_update.bat**
-Batch file that gets run on SLUG every morning that grabs current information to put into the spreadsheet. Must be done locally, if
-it gets done through github actions then you would have to upload the json file that gives access to the google sheets
+Old batch file, still can be used to update the google sheets manually if need be. Runs xml_parser and update_sheet
+to create the graphs for the last 30 and 90 days
+
+## **Notes**
+1) In order for you to use scripts/update_sheet.py you must have the fire_danger_secrets.json in the root
+  directory for the project. *DO NOT PUT THIS FILE ON GITHUB!*
+2) The github actions script updates the text files in the github repo once an hour but does not do anything to
+  update the google sheet. The x-drive runs the same update script once a day then uses that data to update the
+  google sheet.
