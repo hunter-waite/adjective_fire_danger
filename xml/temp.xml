@@ -38,6 +38,38 @@
       <latitude>  35.3030</latitude>
       <longitude>-120.6787</longitude>
       <nfdr_dt>07/24/2020</nfdr_dt>
+      <nfdr_tm>8</nfdr_tm>
+      <nfdr_type>S</nfdr_type>
+      <mp>1</mp>
+      <msgc>7G1A3</msgc>
+      <one_hr>14.22</one_hr>
+      <ten_hr>14.42</ten_hr>
+      <hu_hr>15.23</hu_hr>
+      <th_hr>14.62</th_hr>
+      <xh_hr>12.61</xh_hr>
+      <ic>2.9</ic>
+      <kbdi>479</kbdi>
+      <sc>3.2</sc>
+      <ec>33.2</ec>
+      <bi>25.7</bi>
+      <sl>1 </sl>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>18</fl>
+      <hrb>8.5</hrb>
+      <wdy>107.6</wdy>
+      <herb_gsi>0</herb_gsi>
+      <woody_gsi>0</woody_gsi>
+      <adj>L </adj>
+   </row>
+   <row num="3">
+      <sta_id>44915</sta_id>
+      <sta_nm>SAN LUIS OBISPO</sta_nm>
+      <latitude>  35.3030</latitude>
+      <longitude>-120.6787</longitude>
+      <nfdr_dt>07/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
       <mp>2</mp>
@@ -62,7 +94,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="3">
+   <row num="4">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -92,7 +124,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="4">
+   <row num="5">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -122,7 +154,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="5">
+   <row num="6">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -152,7 +184,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="6">
+   <row num="7">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -182,7 +214,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="7">
+   <row num="8">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -214,7 +246,7 @@
       <woody_gsi>0</woody_gsi>
       <adj>M </adj>
    </row>
-   <row num="8">
+   <row num="9">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -242,38 +274,6 @@
       <fl>27</fl>
       <hrb>8.5</hrb>
       <wdy>107.6</wdy>
-      <herb_gsi>0</herb_gsi>
-      <woody_gsi>0</woody_gsi>
-      <adj>L </adj>
-   </row>
-   <row num="9">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
-      <nfdr_dt>07/23/2020</nfdr_dt>
-      <nfdr_tm>8</nfdr_tm>
-      <nfdr_type>S</nfdr_type>
-      <mp>1</mp>
-      <msgc>7G1A3</msgc>
-      <one_hr>16.46</one_hr>
-      <ten_hr>16.26</ten_hr>
-      <hu_hr>15.46</hu_hr>
-      <th_hr>14.66</th_hr>
-      <xh_hr>12.65</xh_hr>
-      <ic>1.4</ic>
-      <kbdi>477</kbdi>
-      <sc>2.4</sc>
-      <ec>31</ec>
-      <bi>21.9</bi>
-      <sl>1 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>16</fl>
-      <hrb>7.3</hrb>
-      <wdy>108</wdy>
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
       <adj>L </adj>
@@ -316,6 +316,70 @@
       <latitude>  35.3030</latitude>
       <longitude>-120.6787</longitude>
       <nfdr_dt>07/23/2020</nfdr_dt>
+      <nfdr_tm>8</nfdr_tm>
+      <nfdr_type>S</nfdr_type>
+      <mp>1</mp>
+      <msgc>7G1A3</msgc>
+      <one_hr>16.46</one_hr>
+      <ten_hr>16.26</ten_hr>
+      <hu_hr>15.46</hu_hr>
+      <th_hr>14.66</th_hr>
+      <xh_hr>12.65</xh_hr>
+      <ic>1.4</ic>
+      <kbdi>477</kbdi>
+      <sc>2.4</sc>
+      <ec>31</ec>
+      <bi>21.9</bi>
+      <sl>1 </sl>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>16</fl>
+      <hrb>7.3</hrb>
+      <wdy>108</wdy>
+      <herb_gsi>0</herb_gsi>
+      <woody_gsi>0</woody_gsi>
+      <adj>L </adj>
+   </row>
+   <row num="12">
+      <sta_id>44915</sta_id>
+      <sta_nm>SAN LUIS OBISPO</sta_nm>
+      <latitude>  35.3030</latitude>
+      <longitude>-120.6787</longitude>
+      <nfdr_dt>07/23/2020</nfdr_dt>
+      <nfdr_tm>16</nfdr_tm>
+      <nfdr_type>S</nfdr_type>
+      <mp>1</mp>
+      <msgc>7G1A3</msgc>
+      <one_hr>9.48</one_hr>
+      <ten_hr>10.67</ten_hr>
+      <hu_hr>15.46</hu_hr>
+      <th_hr>14.66</th_hr>
+      <xh_hr>12.65</xh_hr>
+      <ic>14.2</ic>
+      <kbdi>477</kbdi>
+      <sc>7.9</sc>
+      <ec>37.2</ec>
+      <bi>41.1</bi>
+      <sl>4 </sl>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>29</fl>
+      <hrb>7.3</hrb>
+      <wdy>108</wdy>
+      <herb_gsi>0</herb_gsi>
+      <woody_gsi>0</woody_gsi>
+      <adj>M </adj>
+   </row>
+   <row num="13">
+      <sta_id>44915</sta_id>
+      <sta_nm>SAN LUIS OBISPO</sta_nm>
+      <latitude>  35.3030</latitude>
+      <longitude>-120.6787</longitude>
+      <nfdr_dt>07/23/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
       <mp>2</mp>
@@ -340,7 +404,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="12">
+   <row num="14">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -370,7 +434,7 @@
       <herb_gsi>0.9</herb_gsi>
       <woody_gsi>0.9</woody_gsi>
    </row>
-   <row num="13">
+   <row num="15">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -400,7 +464,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="14">
+   <row num="16">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -430,7 +494,7 @@
       <herb_gsi>0.9</herb_gsi>
       <woody_gsi>0.9</woody_gsi>
    </row>
-   <row num="15">
+   <row num="17">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -460,7 +524,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="16">
+   <row num="18">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -490,7 +554,7 @@
       <herb_gsi>0.9</herb_gsi>
       <woody_gsi>0.9</woody_gsi>
    </row>
-   <row num="17">
+   <row num="19">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -520,7 +584,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="18">
+   <row num="20">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -550,7 +614,7 @@
       <herb_gsi>0.9</herb_gsi>
       <woody_gsi>0.9</woody_gsi>
    </row>
-   <row num="19">
+   <row num="21">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -580,7 +644,7 @@
       <herb_gsi>0.86</herb_gsi>
       <woody_gsi>0.86</woody_gsi>
    </row>
-   <row num="20">
+   <row num="22">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
