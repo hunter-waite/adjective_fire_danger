@@ -42,6 +42,14 @@ This code functions to update a google sheet that produces a graph representing 
   * *get_sheet()* - Gets the first sheet of the workbook that holds the fire danger rating
   * *get_formatted_date()* - Gets the formatted current date for checking correct data
 
+## **update_database.py**
+A short script for updating the fire danger in the database connects to the Firestore Database then updates the documents that hold the adjective fire danger for the unit app
+
+#### *Functions*
+  * *main()* - Gets the database credentials, time and calls for an update to the database
+  * *update_document()* Updates the documents in the Firestore that hold the Smokey Bear data
+
+
 ## **index.html**
 Start page of the adjective fire danger
 

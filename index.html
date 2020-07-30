@@ -6,6 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Adjective Fire Danger</title>
+
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.png"/>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="index.js" type="text/javascript"></script>
@@ -14,7 +17,7 @@
 </head>
 
 <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="http://slocountyfire.org/">CAL FIRE SLO</a>
+  <a class="navbar-brand" href="http://slocountyfire.org/">CAL FIRE SLUGIS</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -26,6 +29,20 @@
       </li>
     </ul>
   </div>
+
+  <div class="dropdown mr-5">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Resources
+    </button>
+    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="http://slocountyfire.org/BurnDayStatus">Burn Day Status <span class="sr-only">(current)</span></a>
+      <a class="dropdown-item" href="https://slu.carto.com/viz/9a67969c-2532-4619-9269-a96c7d55a041/public_map">Dispatch Levels <span class="sr-only">(current)</span></a>
+      <a class="dropdown-item" href="http://slocountyfire.org/GISInfo/">GIS Info <span class="sr-only">(current)</span></a>
+      <a class="dropdown-item" href="http://slocountyfire.org/interreport">Intel Report <span class="sr-only">(current)</span></a>
+      <a class="dropdown-item" href="http://slocountyfire.org/caltransCCTV">Traffic Cameras <span class="sr-only">(current)</span></a>
+    </div>
+  </div>
+
 </nav>
 
 <body onload="init()">
@@ -44,9 +61,11 @@
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
         <p>This site pulls data from the WIMS Data Exchange Facility, the data uses Ignition Component and Staffing Levels to
-          calculate an adjective fire rating for the different areas.</p>
+          calculate an adjective fire rating for the different areas. This is more commonly known as Fire Danger and is denoted by Smokey The Bear's arm.</p>
         <p>The <b>Coastal</b> Smokey Bear uses data from the San Luis Obispo RAWS station while the <b>Inland</b> Smokey bear uses data from the Las Tablas RAWS station.
           Smokey's arm points to the calculated adjective fire danger for the separate coastal and inland areas, it corresponds directly to the fire danger of that area.
+        <p>Below are the adjective fire ratings for the past 30 and 90 days. The graphs show the 4 stations typically used in the <a href="http://slocountyfire.org/FDOP/">Fire Danger Operating Plan(FDOP).</a>
+           La Panza and Las Tablas are considered inland staions while San Simeon and San Luis Obispo would be considered coastal stations.</p>
       </div>
       <div class="col-sm-1"></div>
     </div>
@@ -62,4 +81,3 @@
 </body>
 
 </html>
-
