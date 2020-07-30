@@ -62,6 +62,8 @@ to create the graphs for the last 30 and 90 days
 ## **Notes**
 1) In order for you to use scripts/update_sheet.py you must have the fire_danger_secrets.json in the root
   directory for the project. *DO NOT PUT THIS FILE ON GITHUB!*
-2) The github actions script updates the text files in the github repo once an hour but does not do anything to
+2) In order for you to use the scripts/update_databse.py you must have the unitapp_admin.json in the root
+  directory for the project. *DO NOT PUT THIS FILE ON GITHUB*
+3) The github actions script updates the text files in the github repo once an hour but does not do anything to
   update the google sheet. The x-drive runs the same update script once a day then uses that data to update the
   google sheet.
