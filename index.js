@@ -26,6 +26,10 @@ function parseStation(station, type) {
 
   // loads file and splits at newline
   var text = loadFile("xml/".concat(station, ".txt"));
+  if(text == null) {
+    Console.log("Something happened, data no loaded");
+    return;
+  }
   text = text.split("\n");
   console.log(text[0]);
 
