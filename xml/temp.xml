@@ -39,30 +39,30 @@
       <longitude>-120.6787</longitude>
       <nfdr_dt>08/09/2020</nfdr_dt>
       <nfdr_tm>12</nfdr_tm>
-      <nfdr_type>R</nfdr_type>
+      <nfdr_type>O</nfdr_type>
       <mp>1</mp>
       <msgc>7G1A3</msgc>
-      <one_hr>8.28</one_hr>
-      <ten_hr>9.71</ten_hr>
+      <one_hr>6.71</one_hr>
+      <ten_hr>8.45</ten_hr>
       <hu_hr>15.41</hu_hr>
       <th_hr>15.02</th_hr>
       <xh_hr>12.8</xh_hr>
-      <ic>16.5</ic>
+      <ic>23.8</ic>
       <kbdi>523</kbdi>
-      <sc>7.2</sc>
-      <ec>37.5</ec>
-      <bi>39.5</bi>
+      <sc>7.7</sc>
+      <ec>38.9</ec>
+      <bi>41.6</bi>
       <sl>4 </sl>
       <lr>0</lr>
       <lo>0</lo>
       <hr>0</hr>
       <ho>0</ho>
-      <fl>28</fl>
-      <hrb>8.3</hrb>
+      <fl>30</fl>
+      <hrb>6.7</hrb>
       <wdy>111.2</wdy>
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
-      <adj>M </adj>
+      <adj>H </adj>
    </row>
    <row num="3">
       <sta_id>44915</sta_id>
