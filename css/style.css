@@ -11,7 +11,7 @@
 .navbar-custom .dropdown-toggle,
 .navbar-custom .dropdown-toggle:hover,
 .navbar-custom .dropdown-toggle:focus,
-.navbar-custom .btn{
-  background-color: #D12A22;
+.navbar-custom .btn-secondary:focus{
+  background-color: #D12A22 !important;
   font-weight: bold;
 }
