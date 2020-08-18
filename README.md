@@ -1,4 +1,7 @@
 # **Adjective Fire Danger/Smokey Bear**
+
+View the final product [here!](slocountyfire.org/adjective_fire_danger)
+
 Pulls Data from the RAWS stations and uses the most recent adjective fire rating
 to determine fire danger for that specific day.
 
