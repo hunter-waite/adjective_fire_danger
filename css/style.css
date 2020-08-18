@@ -1,0 +1,36 @@
+/* custom background color for navbar */
+.navbar-custom {
+  background-color: #073256;  /* Calfire Blue */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+    font-weight: bold;
+}
+
+/* Resources dropdown styleling */
+.navbar-custom .dropdown-toggle,
+.navbar-custom .dropdown-toggle:hover,
+.navbar-custom .dropdown-toggle:focus,
+.navbar-custom .btn-secondary:focus,
+.navbar-custom .btn-custom{
+  background-color: #073256 !important; /* CalFire Red */
+  font-weight: bold;
+  color: white;
+  content: none !important;
+}
+
+/* Custom icon for the collapsable portion of the navbar */
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-custom .nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+* {
+  font-family: Georgia;
+}

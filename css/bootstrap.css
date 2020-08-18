@@ -4043,6 +4043,7 @@ tbody.collapse.show {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+  color: white;
 }
 
 @media (max-width: 575.98px) {
@@ -7365,6 +7366,14 @@ button.bg-dark:focus {
   clip-path: none;
 }
 
+.w-logo {
+  width: 10% !important;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
 .w-25 {
   width: 25% !important;
 }
@@ -7395,6 +7404,10 @@ button.bg-dark:focus {
 
 .h-100 {
   height: 100% !important;
+}
+
+.mw-15 {
+  max-width: 15% !important;
 }
 
 .mw-100 {
