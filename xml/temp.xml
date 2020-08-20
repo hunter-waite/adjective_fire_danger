@@ -70,6 +70,38 @@
       <latitude>  35.3030</latitude>
       <longitude>-120.6787</longitude>
       <nfdr_dt>08/19/2020</nfdr_dt>
+      <nfdr_tm>14</nfdr_tm>
+      <nfdr_type>S</nfdr_type>
+      <mp>1</mp>
+      <msgc>7G1A3</msgc>
+      <one_hr>4.83</one_hr>
+      <ten_hr>6.24</ten_hr>
+      <hu_hr>11.86</hu_hr>
+      <th_hr>14.63</th_hr>
+      <xh_hr>12.27</xh_hr>
+      <ic>25.3</ic>
+      <kbdi>558</kbdi>
+      <sc>4.7</sc>
+      <ec>46</ec>
+      <bi>35.6</bi>
+      <sl>1 </sl>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>25</fl>
+      <hrb>4.2</hrb>
+      <wdy>107.7</wdy>
+      <herb_gsi>0</herb_gsi>
+      <woody_gsi>0</woody_gsi>
+      <adj>L </adj>
+   </row>
+   <row num="4">
+      <sta_id>44915</sta_id>
+      <sta_nm>SAN LUIS OBISPO</sta_nm>
+      <latitude>  35.3030</latitude>
+      <longitude>-120.6787</longitude>
+      <nfdr_dt>08/19/2020</nfdr_dt>
       <nfdr_tm>6</nfdr_tm>
       <nfdr_type>S</nfdr_type>
       <mp>1</mp>
@@ -96,7 +128,7 @@
       <woody_gsi>0</woody_gsi>
       <adj>H </adj>
    </row>
-   <row num="4">
+   <row num="5">
       <sta_id>44915</sta_id>
       <sta_nm>SAN LUIS OBISPO</sta_nm>
       <latitude>  35.3030</latitude>
@@ -127,38 +159,6 @@
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
       <adj>V </adj>
-   </row>
-   <row num="5">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
-      <nfdr_dt>08/19/2020</nfdr_dt>
-      <nfdr_tm>14</nfdr_tm>
-      <nfdr_type>S</nfdr_type>
-      <mp>1</mp>
-      <msgc>7G1A3</msgc>
-      <one_hr>4.83</one_hr>
-      <ten_hr>6.24</ten_hr>
-      <hu_hr>11.86</hu_hr>
-      <th_hr>14.63</th_hr>
-      <xh_hr>12.27</xh_hr>
-      <ic>25.3</ic>
-      <kbdi>558</kbdi>
-      <sc>4.7</sc>
-      <ec>46</ec>
-      <bi>35.6</bi>
-      <sl>1 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>25</fl>
-      <hrb>4.2</hrb>
-      <wdy>107.7</wdy>
-      <herb_gsi>0</herb_gsi>
-      <woody_gsi>0</woody_gsi>
-      <adj>L </adj>
    </row>
    <row num="6">
       <sta_id>44915</sta_id>
