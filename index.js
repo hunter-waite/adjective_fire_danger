@@ -28,17 +28,14 @@ function updatePage() {
                   ["LA_PANZA",        [35.380725, -120.188094],   null]]) {
 
     console.log(station[0]);
-    if(station[0] == "LAS_TABLAS" || station[0] == "SLO") {
-      parseStation(station[0], station[2]);
-    }
-    createCircle(mymap, station[0], station[1], null);
+    parseStation(station, mymap);
   }
 }
 
 function createCircle(mymap, name, loc, danger) {
   var circle = L.circle(loc, {
-    color: 'blue',
-    fillColor: 'blue',
+    color: danger,
+    fillColor: danger,
     fillOpacity: 0.5,
     radius: 5000
   }).addTo(mymap);
@@ -46,7 +43,7 @@ function createCircle(mymap, name, loc, danger) {
 }
 
 // parses data to display the correct smokey bear image
-function parseStation(station, type) {
+function parseStation(station, mymap) {
 
   console.log("Loading data for: ", station)
 
@@ -66,18 +63,23 @@ function parseStation(station, type) {
   switch(adj[0]) {
     case 'L':
       document.getElementById(type).setAttribute('src', './img/low.png');
+      createCircle(mymap, station[0], station[1], 'green');
       break;
     case 'M':
       document.getElementById(type).setAttribute('src', './img/moderate.png');
+      createCircle(mymap, station[0], station[1], 'blue');
       break;
     case 'H':
       document.getElementById(type).setAttribute('src', './img/high.png');
+      createCircle(mymap, station[0], station[1], 'yellow');
       break;
     case 'V':
       document.getElementById(type).setAttribute('src', './img/veryhigh.png');
+      createCircle(mymap, station[0], station[1], 'orange');
       break;
     case 'E':
       document.getElementById(type).setAttribute('src', './img/extreme.png');
+      createCircle(mymap, station[0], station[1], 'red');
       break;
   }
 }
