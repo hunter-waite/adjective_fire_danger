@@ -45,10 +45,10 @@ function createCircle(mymap, name, loc, danger) {
 // parses data to display the correct smokey bear image
 function parseStation(station, mymap) {
 
-  console.log("Loading data for: ", station)
+  console.log("Loading data for: ", station[0])
 
   // loads file and splits at newline
-  var text = loadFile("xml/".concat(station, ".txt"));
+  var text = loadFile("xml/".concat(station[0], ".txt"));
   if(text == null) {
     Console.log("Something happened, data no loaded");
     return;
