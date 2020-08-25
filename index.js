@@ -50,7 +50,7 @@ function parseStation(station, mymap) {
   // loads file and splits at newline
   var text = loadFile("xml/".concat(station[0], ".txt"));
   if(text == null) {
-    Console.log("Something happened, data no loaded");
+    console.log("Something happened, data no loaded");
     return;
   }
   text = text.split("\n");
