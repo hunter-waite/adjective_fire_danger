@@ -62,23 +62,23 @@ function parseStation(station, mymap) {
   // first single letter will always be one of the 5, selects smokey bear image
   switch(adj[0]) {
     case 'L':
-      document.getElementById(type).setAttribute('src', './img/low.png');
+      document.getElementById(station[2]).setAttribute('src', './img/low.png');
       createCircle(mymap, station[0], station[1], 'green');
       break;
     case 'M':
-      document.getElementById(type).setAttribute('src', './img/moderate.png');
+      document.getElementById(station[2]).setAttribute('src', './img/moderate.png');
       createCircle(mymap, station[0], station[1], 'blue');
       break;
     case 'H':
-      document.getElementById(type).setAttribute('src', './img/high.png');
+      document.getElementById(station[2]).setAttribute('src', './img/high.png');
       createCircle(mymap, station[0], station[1], 'yellow');
       break;
     case 'V':
-      document.getElementById(type).setAttribute('src', './img/veryhigh.png');
+      document.getElementById(station[2]).setAttribute('src', './img/veryhigh.png');
       createCircle(mymap, station[0], station[1], 'orange');
       break;
     case 'E':
-      document.getElementById(type).setAttribute('src', './img/extreme.png');
+      document.getElementById(station[2]).setAttribute('src', './img/extreme.png');
       createCircle(mymap, station[0], station[1], 'red');
       break;
   }
