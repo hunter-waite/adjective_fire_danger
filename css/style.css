@@ -1,3 +1,7 @@
+/* map sizing */
+#fire_danger_map { width: 700px;
+         height: 500px; }
+
 /* custom background color for navbar */
 .navbar-custom {
   background-color: #073256;  /* Calfire Blue */

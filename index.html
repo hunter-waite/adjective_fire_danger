@@ -19,6 +19,15 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
   <script src="js/bootstrap.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+     crossorigin=""/>
+
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+
 </head>
 
 <body onload="init()" data-target=".navbar-fixed-top">
@@ -107,6 +116,13 @@
       </div>
       <div class="col-sm-1"></div>
     </div>
+
+    <div class="row">
+      <div class="mx-auto d-block">
+        <div id="fire_danger_map"></div>
+      </div>
+    </div>
+
     <div class="row">
       <div class="col-sm-6">
         <img id="fd_last_30" class="mx-auto d-block mt-4 w-100" alt="Fire Danger Last 30 Days" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTByfkzrqGO6UR3nbHS5LVzWa5hSaaewyjevjtsHEKN8vCUqH3d_Gl8NsQ0mGFGYC9-Ch5yb7kedCq5/pubchart?oid=540355554&amp;format=image"></img>
