@@ -3,9 +3,10 @@ function init() {
   updatePage();
 }
 
-// Creates the fire danger map on the page with the SLO unit map outline
+// updates the smokey bears as well as
 function updatePage() {
-  var mymap = L.map('fire_danger_map').setView([35.272680, -120.401038], 9);  // basically the SLO County coordinates
+  // create map with slo county at the center and the correct size
+  var mymap = L.map('fire_danger_map').setView([35.272680, -120.401038], 9);
 
   // create tile layer on map with San Luis Unit Map as the base layer from
   // the mapbox layer
@@ -19,27 +20,16 @@ function updatePage() {
     zoomOffset: -1
   }).addTo(mymap);
 
+  // loops through all the availivble stations
                   // station name     lat, long                   image name
   for (station of [["LAS_TABLAS",     [35.656447, -120.9241],     "smokey_bear_inland"],
                   ["SLO",             [35.179347, -120.392719],   "smokey_bear_coastal"],
                   ["BRANCH_MOUNTAIN", [35.185233, -120.084989],   null],
                   ["CARRIZO",         [35.096528, -119.773222],   null],
-                  ["SAN_SIMEON",      [35.59555, -121.1096],      null],
+                  ["SAN_SIMEON",      [35.59555,  -121.1096],     null],
                   ["LA_PANZA",        [35.380725, -120.188094],   null]]) {
-
-    console.log(station[0]);
     parseStation(station, mymap);
   }
-}
-
-function createCircle(mymap, name, loc, danger) {
-  var circle = L.circle(loc, {
-    color: danger,
-    fillColor: danger,
-    fillOpacity: 0.5,
-    radius: 5000
-  }).addTo(mymap);
-  circle.bindPopup(name);
 }
 
 // parses data to display the correct smokey bear image
@@ -50,7 +40,7 @@ function parseStation(station, mymap) {
   // loads file and splits at newline
   var text = loadFile("xml/".concat(station[0], ".txt"));
   if(text == null) {
-    console.log("Something happened, data no loaded");
+    console.log("Something happened, data not loaded");
     return;
   }
   text = text.split("\n");
@@ -63,23 +53,23 @@ function parseStation(station, mymap) {
   switch(adj[0]) {
     case 'L':
       document.getElementById(station[2]).setAttribute('src', './img/low.png');
-      createCircle(mymap, station[0], station[1], 'green');
+      createCircle(mymap, station[0], station[1], 'green', 'LOW');
       break;
     case 'M':
       document.getElementById(station[2]).setAttribute('src', './img/moderate.png');
-      createCircle(mymap, station[0], station[1], 'blue');
+      createCircle(mymap, station[0], station[1], 'blue', 'MODERATE');
       break;
     case 'H':
       document.getElementById(station[2]).setAttribute('src', './img/high.png');
-      createCircle(mymap, station[0], station[1], 'yellow');
+      createCircle(mymap, station[0], station[1], 'yellow', 'HIGH');
       break;
     case 'V':
       document.getElementById(station[2]).setAttribute('src', './img/veryhigh.png');
-      createCircle(mymap, station[0], station[1], 'orange');
+      createCircle(mymap, station[0], station[1], 'orange', 'VERY HIGH');
       break;
     case 'E':
       document.getElementById(station[2]).setAttribute('src', './img/extreme.png');
-      createCircle(mymap, station[0], station[1], 'red');
+      createCircle(mymap, station[0], station[1], 'red', 'EXTREME');
       break;
   }
 }
@@ -94,4 +84,15 @@ function loadFile(filePath) {
     result = xmlhttp.responseText;
   }
   return result;
+}
+
+// creates a circle that displays a pop up
+function createCircle(mymap, name, loc, color, label) {
+  var circle = L.circle(loc, {
+    color: color,
+    fillColor: color,
+    fillOpacity: 0.5,
+    radius: 5000
+  }).addTo(mymap);
+  circle.bindPopup(name + '': \n' + label);
 }
