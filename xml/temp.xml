@@ -38,38 +38,6 @@
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
       <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>8</nfdr_tm>
-      <nfdr_type>S</nfdr_type>
-      <mp>1</mp>
-      <msgc>7G1A3</msgc>
-      <one_hr>14.1</one_hr>
-      <ten_hr>13.86</ten_hr>
-      <hu_hr>12.88</hu_hr>
-      <th_hr>13.63</th_hr>
-      <xh_hr>11.22</xh_hr>
-      <ic>3.7</ic>
-      <kbdi>583</kbdi>
-      <sc>3.9</sc>
-      <ec>38.2</ec>
-      <bi>30.1</bi>
-      <sl>1 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>21</fl>
-      <hrb>8.2</hrb>
-      <wdy>98.8</wdy>
-      <herb_gsi>0</herb_gsi>
-      <woody_gsi>0</woody_gsi>
-      <adj>L </adj>
-   </row>
-   <row num="3">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
       <mp>2</mp>
@@ -96,19 +64,11 @@
       <woody_gsi>0</woody_gsi>
       <adj>M </adj>
    </row>
-<<<<<<< HEAD
    <row num="3">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="4">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/25/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -134,19 +94,11 @@
       <herb_gsi>0.3</herb_gsi>
       <woody_gsi>0.3</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="4">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="5">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/25/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -172,19 +124,11 @@
       <herb_gsi>0.3</herb_gsi>
       <woody_gsi>0.3</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="5">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="6">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/25/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -212,19 +156,11 @@
       <woody_gsi>0.3</woody_gsi>
       <adj>M </adj>
    </row>
-<<<<<<< HEAD
    <row num="6">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="7">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/25/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -250,21 +186,12 @@
       <herb_gsi>0.3</herb_gsi>
       <woody_gsi>0.3</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="7">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
       <nfdr_dt>08/25/2020</nfdr_dt>
-=======
-   <row num="8">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
-      <nfdr_dt>08/24/2020</nfdr_dt>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
       <mp>7</mp>
@@ -289,19 +216,11 @@
       <herb_gsi>0.3</herb_gsi>
       <woody_gsi>0.3</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="8">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="9">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -329,7 +248,6 @@
       <woody_gsi>0</woody_gsi>
       <adj>L </adj>
    </row>
-<<<<<<< HEAD
    <row num="9">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
@@ -351,47 +269,17 @@
       <ec>2.4</ec>
       <bi>24.2</bi>
       <sl>2 </sl>
-=======
-   <row num="10">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
-      <nfdr_dt>08/24/2020</nfdr_dt>
-      <nfdr_tm>14</nfdr_tm>
-      <nfdr_type>S</nfdr_type>
-      <mp>1</mp>
-      <msgc>7G1A3</msgc>
-      <one_hr>9.37</one_hr>
-      <ten_hr>9.75</ten_hr>
-      <hu_hr>11.28</hu_hr>
-      <th_hr>13.52</th_hr>
-      <xh_hr>11.16</xh_hr>
-      <ic>18</ic>
-      <kbdi>581</kbdi>
-      <sc>11.5</sc>
-      <ec>45</ec>
-      <bi>53.3</bi>
-      <sl>4 </sl>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <lr>0</lr>
       <lo>0</lo>
       <hr>0</hr>
       <ho>0</ho>
-<<<<<<< HEAD
       <fl>17</fl>
       <hrb>4.8</hrb>
       <wdy>60</wdy>
-=======
-      <fl>38</fl>
-      <hrb>9.7</hrb>
-      <wdy>97.8</wdy>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
       <adj>M </adj>
    </row>
-<<<<<<< HEAD
    <row num="10">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
@@ -413,47 +301,17 @@
       <ec>84.7</ec>
       <bi>43.6</bi>
       <sl>3 </sl>
-=======
-   <row num="11">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
-      <nfdr_dt>08/24/2020</nfdr_dt>
-      <nfdr_tm>8</nfdr_tm>
-      <nfdr_type>S</nfdr_type>
-      <mp>1</mp>
-      <msgc>7G1A3</msgc>
-      <one_hr>11.47</one_hr>
-      <ten_hr>11.44</ten_hr>
-      <hu_hr>11.28</hu_hr>
-      <th_hr>13.52</th_hr>
-      <xh_hr>11.16</xh_hr>
-      <ic>5.1</ic>
-      <kbdi>581</kbdi>
-      <sc>2.4</sc>
-      <ec>42.8</ec>
-      <bi>25.5</bi>
-      <sl>1 </sl>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <lr>0</lr>
       <lo>0</lo>
       <hr>0</hr>
       <ho>0</ho>
-<<<<<<< HEAD
       <fl>31</fl>
       <hrb>4.2</hrb>
       <wdy>60</wdy>
-=======
-      <fl>18</fl>
-      <hrb>9.7</hrb>
-      <wdy>97.8</wdy>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
-      <adj>L </adj>
+      <adj>M </adj>
    </row>
-<<<<<<< HEAD
    <row num="11">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
@@ -475,59 +333,22 @@
       <ec>84.6</ec>
       <bi>55.3</bi>
       <sl>3 </sl>
-=======
-   <row num="12">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
-      <nfdr_dt>08/24/2020</nfdr_dt>
-      <nfdr_tm>16</nfdr_tm>
-      <nfdr_type>S</nfdr_type>
-      <mp>1</mp>
-      <msgc>7G1A3</msgc>
-      <one_hr>11.11</one_hr>
-      <ten_hr>11.15</ten_hr>
-      <hu_hr>11.28</hu_hr>
-      <th_hr>13.52</th_hr>
-      <xh_hr>11.16</xh_hr>
-      <ic>9.3</ic>
-      <kbdi>581</kbdi>
-      <sc>6.8</sc>
-      <ec>43.2</ec>
-      <bi>41.1</bi>
-      <sl>4 </sl>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <lr>0</lr>
       <lo>0</lo>
       <hr>0</hr>
       <ho>0</ho>
-<<<<<<< HEAD
       <fl>39</fl>
       <hrb>4.8</hrb>
       <wdy>60</wdy>
-=======
-      <fl>29</fl>
-      <hrb>9.7</hrb>
-      <wdy>97.8</wdy>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <herb_gsi>0</herb_gsi>
       <woody_gsi>0</woody_gsi>
       <adj>M </adj>
    </row>
-<<<<<<< HEAD
    <row num="12">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="13">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -553,19 +374,11 @@
       <herb_gsi>0.3</herb_gsi>
       <woody_gsi>0.3</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="13">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="14">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>N</nfdr_type>
@@ -591,19 +404,11 @@
       <herb_gsi>0.32</herb_gsi>
       <woody_gsi>0.32</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="14">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="15">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -629,19 +434,11 @@
       <herb_gsi>0.3</herb_gsi>
       <woody_gsi>0.3</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="15">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="16">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>N</nfdr_type>
@@ -667,19 +464,11 @@
       <herb_gsi>0.32</herb_gsi>
       <woody_gsi>0.32</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="16">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="17">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -707,19 +496,11 @@
       <woody_gsi>0.3</woody_gsi>
       <adj>L </adj>
    </row>
-<<<<<<< HEAD
    <row num="17">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="18">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>N</nfdr_type>
@@ -747,19 +528,11 @@
       <woody_gsi>0.32</woody_gsi>
       <adj>M </adj>
    </row>
-<<<<<<< HEAD
    <row num="18">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="19">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -785,19 +558,11 @@
       <herb_gsi>0.3</herb_gsi>
       <woody_gsi>0.3</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="19">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="20">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>N</nfdr_type>
@@ -823,19 +588,11 @@
       <herb_gsi>0.32</herb_gsi>
       <woody_gsi>0.32</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="20">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="21">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -861,19 +618,11 @@
       <herb_gsi>0.3</herb_gsi>
       <woody_gsi>0.3</woody_gsi>
    </row>
-<<<<<<< HEAD
    <row num="21">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
-=======
-   <row num="22">
-      <sta_id>44915</sta_id>
-      <sta_nm>SAN LUIS OBISPO</sta_nm>
-      <latitude>  35.3030</latitude>
-      <longitude>-120.6787</longitude>
->>>>>>> ac82abc6ef0c803a05152ee46fd5737bbbee87b6
       <nfdr_dt>08/24/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>N</nfdr_type>
