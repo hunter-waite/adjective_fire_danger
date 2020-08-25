@@ -94,5 +94,5 @@ function createCircle(mymap, name, loc, color, label) {
     fillOpacity: 0.5,
     radius: 5000
   }).addTo(mymap);
-  circle.bindPopup(name + '': \n' + label);
+  circle.bindPopup(name + ': \n' + label);
 }
