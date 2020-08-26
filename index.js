@@ -20,6 +20,22 @@ function updatePage() {
     zoomOffset: -1
   }).addTo(mymap);
 
+  var legend = L.control({ position: "bottomleft" });
+
+  legend.onAdd = function(mymap) {
+    var div = L.DomUtil.create("div", "legend");
+    div.innerHTML += "<h4>Tegnforklaring</h4>";
+    div.innerHTML += '<i style="background: #477AC2"></i><span>Water</span><br>';
+    div.innerHTML += '<i style="background: #448D40"></i><span>Forest</span><br>';
+    div.innerHTML += '<i style="background: #E6E696"></i><span>Land</span><br>';
+    div.innerHTML += '<i style="background: #E8E6E0"></i><span>Residential</span><br>';
+    div.innerHTML += '<i style="background: #FFFFFF"></i><span>Ice</span><br>';
+    div.innerHTML += '<i class="icon" style="background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/194515-200.png);background-repeat: no-repeat;"></i><span>Grænse</span><br>';
+
+    return div;
+  }
+
+  legend.addTo(mymap);
   // loops through all the availivble stations
                   // station name     lat, long                   image name
   for (station of [["LAS_TABLAS",     [35.656447, -120.9241],     "smokey_bear_inland"],
@@ -52,35 +68,33 @@ function parseStation(station, mymap) {
   // first single letter will always be one of the 5, selects smokey bear image
   switch(adj[0]) {
     case 'L':
-      if(station[2] != null) {
-        document.getElementById(station[2]).setAttribute('src', './img/low.png');
-      }
-      createCircle(mymap, station[0], station[1], 'green', 'LOW');
+      updateImg(station, './img/low.png')
+      createCircle(mymap, station[0], station[1], '#00CC66', 'LOW');
       break;
     case 'M':
-      if(station[2] != null) {
-        document.getElementById(station[2]).setAttribute('src', './img/moderate.png');
-      }
-      createCircle(mymap, station[0], station[1], 'blue', 'MODERATE');
+      updateImg(station, './img/moderate.png')
+      createCircle(mymap, station[0], station[1], '#0099FF', 'MODERATE');
       break;
     case 'H':
-      if(station[2] != null) {
-        document.getElementById(station[2]).setAttribute('src', './img/high.png');
-      }
-      createCircle(mymap, station[0], station[1], 'yellow', 'HIGH');
+      updateImg(station, './img/high.png')
+      createCircle(mymap, station[0], station[1], '#FACB00', 'HIGH');
       break;
     case 'V':
-      if(station[2] != null) {
-        document.getElementById(station[2]).setAttribute('src', './img/veryhigh.png');
-      }
-      createCircle(mymap, station[0], station[1], 'orange', 'VERY HIGH');
+      updateImg(station, './img/veryhigh.png');
+      createCircle(mymap, station[0], station[1], '#FF6600', 'VERY HIGH');
       break;
     case 'E':
-      if(station[2] != null) {
-        document.getElementById(station[2]).setAttribute('src', './img/extreme.png');
-      }
-      createCircle(mymap, station[0], station[1], 'red', 'EXTREME');
+      updateImg(station, './img/extreme.png');
+      createCircle(mymap, station[0], station[1], '#FF0000', 'EXTREME');
       break;
+  }
+}
+
+// checks to make sure the image source is not null
+// then updates the correct smokey bear
+function updateImg(station, img) {
+  if(station[2] != null) {
+    document.getElementById(station[2]).setAttribute('src', img);
   }
 }
 
