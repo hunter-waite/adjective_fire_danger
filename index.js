@@ -1,33 +1,66 @@
 
-const LA_PANZA    = 44914 // inland
-const LAS_TABLAS  = 44904 // inland
-const SLO         = 44915 // coastal
-const SAN_SIMEON  = 44917 // coastal
-
 function init() {
-  updateSmokeys();
+  updatePage();
 }
 
-// updates the smokey bear images on load
-function updateSmokeys() {
-  // loop through all stations LAS_TABLAS used for inland and SLO used for coastal
-  for (station of [["LAS_TABLAS", "smokey_bear_inland"],
-                  ["SLO", "smokey_bear_coastal"]]) {
+// updates the smokey bears as well as
+function updatePage() {
+  // create map with slo county at the center and the correct size
+  var mymap = L.map('fire_danger_map').setView([35.272680, -120.401038], 9);
 
-    parseStation(station[0], station[1]);
-    console.log("-------------------------------------------------------------");
+  // create tile layer on map with San Luis Unit Map as the base layer from
+  // the mapbox layer
+  L.tileLayer('https://api.mapbox.com/styles/v1/slugis/ckafr87pa0kcy1iq5kmf2t1y9/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic2x1Z2lzIiwiYSI6IlB5TlZENVUifQ.Z597Ia0qffZlYcGpbJtzTA', {
+    maxZoom: 18,
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+      '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+      'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1
+  }).addTo(mymap);
+
+  // create a legend feature for the map
+  var legend = L.control({ position: "bottomleft" });
+
+  // add different features for the legend
+  legend.onAdd = function(mymap) {
+    var div = L.DomUtil.create("div", "legend");
+    div.innerHTML += "<h4>Fire Danger</h4>";
+    div.innerHTML += '<i style="background: #FF0000"></i><span>Extreme</span><br>';
+    div.innerHTML += '<i style="background: #FF6600"></i><span>Very High</span><br>';
+    div.innerHTML += '<i style="background: #FACB00"></i><span>High</span><br>';
+    div.innerHTML += '<i style="background: #0099FF"></i><span>Moderate</span><br>';
+    div.innerHTML += '<i style="background: #00CC66"></i><span>Low</span><br>';
+
+    return div;
+  }
+
+  // add the legend to the map
+  legend.addTo(mymap);
+
+
+  // loops through all the availivble stations
+                  // station name     lat, long                   image name
+  for (station of [["LAS_TABLAS",     [35.656447, -120.9241],     "smokey_bear_inland"],
+                  ["SLO",             [35.179347, -120.392719],   "smokey_bear_coastal"],
+                  ["BRANCH_MOUNTAIN", [35.185233, -120.084989],   null],
+                  ["CARRIZO",         [35.096528, -119.773222],   null],
+                  ["SAN_SIMEON",      [35.59555,  -121.1096],     null],
+                  ["LA_PANZA",        [35.380725, -120.188094],   null]]) {
+    parseStation(station, mymap);
   }
 }
 
 // parses data to display the correct smokey bear image
-function parseStation(station, type) {
+function parseStation(station, mymap) {
 
-  console.log("Loading data for: ", station)
+  console.log("Loading data for: ", station[0])
 
   // loads file and splits at newline
-  var text = loadFile("xml/".concat(station, ".txt"));
+  var text = loadFile("xml/".concat(station[0], ".txt"));
   if(text == null) {
-    Console.log("Something happened, data no loaded");
+    console.log("Something happened, data not loaded");
     return;
   }
   text = text.split("\n");
@@ -39,20 +72,33 @@ function parseStation(station, type) {
   // first single letter will always be one of the 5, selects smokey bear image
   switch(adj[0]) {
     case 'L':
-      document.getElementById(type).setAttribute('src', './img/low.png');
+      updateImg(station, './img/low.png')
+      createCircle(mymap, station[0], station[1], '#00CC66', 'LOW');
       break;
     case 'M':
-      document.getElementById(type).setAttribute('src', './img/moderate.png');
+      updateImg(station, './img/moderate.png')
+      createCircle(mymap, station[0], station[1], '#0099FF', 'MODERATE');
       break;
     case 'H':
-      document.getElementById(type).setAttribute('src', './img/high.png');
+      updateImg(station, './img/high.png')
+      createCircle(mymap, station[0], station[1], '#FACB00', 'HIGH');
       break;
     case 'V':
-      document.getElementById(type).setAttribute('src', './img/veryhigh.png');
+      updateImg(station, './img/veryhigh.png');
+      createCircle(mymap, station[0], station[1], '#FF6600', 'VERY HIGH');
       break;
     case 'E':
-      document.getElementById(type).setAttribute('src', './img/extreme.png');
+      updateImg(station, './img/extreme.png');
+      createCircle(mymap, station[0], station[1], '#FF0000', 'EXTREME');
       break;
+  }
+}
+
+// checks to make sure the image source is not null
+// then updates the correct smokey bear
+function updateImg(station, img) {
+  if(station[2] != null) {
+    document.getElementById(station[2]).setAttribute('src', img);
   }
 }
 
@@ -66,4 +112,15 @@ function loadFile(filePath) {
     result = xmlhttp.responseText;
   }
   return result;
+}
+
+// creates a circle that displays a pop up
+function createCircle(mymap, name, loc, color, label) {
+  var circle = L.circle(loc, {
+    color: color,
+    fillColor: color,
+    fillOpacity: 0.5,
+    radius: 5000
+  }).addTo(mymap);
+  circle.bindPopup(name + ': ' + label);
 }

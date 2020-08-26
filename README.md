@@ -2,11 +2,11 @@
 
 View the final product [here!](slocountyfire.org/adjective_fire_danger)
 
-Pulls Data from the RAWS stations and uses the most recent adjective fire rating
+Pulls Data from the RAWS (Remote Automated Weather Stations) and uses the most recent adjective fire rating
 to determine fire danger for that specific day.
 
 ## **Workflow**
-Using a github actions yaml file an action occurs every hour that runs
+Using a github actions command an action occurs every hour that runs
 *scripts/xml_parser.py* then pushes all new data to the github server.
 
 ## **index.js**
@@ -14,9 +14,11 @@ This code functions to pull data from hourly updated files and display the
 correct corresponding smokey bear image
 
 #### *Functions*
-  *  *updateSmokeys()* - loops through the stations used for smokey bear
-  *  *parseStation()* - gets the XML of the given station and sets the corresponding smokey to it
-  *  *loadFile()* - opens the file and gets the text for the data required of smokey
+  *  *updatePage()* - Initializes the map and legend then loops through all the stations that the website handles.
+  *  *parseStation()* - Gets the XML of the given station and sets the corresponding Smokey to it.
+  *  *updateImg()*  - Tests to make sure the image reference isn't null then updates the correct Smokey based on it.
+  *  *loadFile()* - Opens the file and gets the text for the data required of Smokey.
+  *  *createCircle()* - Creates a circle on the map with the appropriate color, location and label
 
 ## **xml_parser.py**
 This script is run through an Ubuntu machine hosted by github. It uses the date and predefined
@@ -25,7 +27,7 @@ station numbers to retrieve and store XML data from the WIMS web service to be p
 #### *Functions*
   * *main()* - Retrieves and stores XML data for the current day and previous day to determine
     the adjective fire danger at each station listed:
-    [LA_PANZA, LAS_TABLAS, SLO, SAN_SIMEON]
+    [LA_PANZA, LAS_TABLAS, SLO, SAN_SIMEON, BRANCH_MOUNTAIN, CARRIZO]
   * *parse_xml()* - Parses the XML tree for the adjective fire danger ratings that we want,
     writes data to file as well as print to console
   * *get_xml()* - Creates a url from the given variables to pull adjective fire rating
@@ -49,9 +51,8 @@ A short script for updating the fire danger in the database connects to the Fire
   * *main()* - Gets the database credentials, time and calls for an update to the database
   * *update_document()* Updates the documents in the Firestore that hold the Smokey Bear data
 
-
 ## **index.html**
-Start page of the adjective fire danger
+Start page of the adjective fire danger, uses bootstrap to manage all the different divisions.
 
 ## **update_fire_danger.sh**
 This is the file that gets run on the x-drive every morning at 9 am and grabs the prediction for the adjective fire danger
@@ -68,5 +69,5 @@ to create the graphs for the last 30 and 90 days
 2) In order for you to use the scripts/update_databse.py you must have the unitapp_admin.json in the root
   directory for the project. *DO NOT PUT THIS FILE ON GITHUB*
 3) The github actions script updates the text files in the github repo once an hour but does not do anything to
-  update the google sheet. The x-drive runs the same update script once a day then uses that data to update the
+  update the google sheet. The x-drive runs the same xml_parser script once a day then uses that data to update the
   google sheet.

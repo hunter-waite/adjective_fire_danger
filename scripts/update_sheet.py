@@ -19,12 +19,12 @@ def main():
 
 
     # loops through all the typical FDOP stations to get data
-    for station in ["LA_PANZA", "LAS_TABLAS", "SLO", "SAN_SIMEON"]:
+    for station in ["LA_PANZA", "LAS_TABLAS", "SLO", "SAN_SIMEON", "BRANCH_MOUNTAIN", "CARRIZO"]:
         # gets date and time
         date, rating = get_date_and_rating(station)
         # if the dates don't match then it is incorrect data do nothing
         if date != dt:
-            new_row.append(" ")
+            new_row.append("OUTDATED: " + rating + ", Last Updated: " + date)
         else:
             new_row.append(rating)
         new_row.append(None)

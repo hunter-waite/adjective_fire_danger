@@ -18,7 +18,9 @@ def main():
     for station in [[44914, "LA_PANZA"],\
                     [44904, "LAS_TABLAS"],\
                     [44917, "SAN_SIMEON"],\
-                    [44915, "SLO"]]:
+                    [44915, "SLO"],\
+                    [44901, "BRANCH_MOUNTAIN"],\
+                    [44916, "CARRIZO"]]:
         # retrieve the root of xml tree
         root = get_xml(station[0], yesterday, today)
         # parse root for data
