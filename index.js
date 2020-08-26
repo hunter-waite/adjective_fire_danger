@@ -52,23 +52,33 @@ function parseStation(station, mymap) {
   // first single letter will always be one of the 5, selects smokey bear image
   switch(adj[0]) {
     case 'L':
-      document.getElementById(station[2]).setAttribute('src', './img/low.png');
+      if(station[2] != null) {
+        document.getElementById(station[2]).setAttribute('src', './img/low.png');
+      }
       createCircle(mymap, station[0], station[1], 'green', 'LOW');
       break;
     case 'M':
-      document.getElementById(station[2]).setAttribute('src', './img/moderate.png');
+      if(station[2] != null) {
+        document.getElementById(station[2]).setAttribute('src', './img/moderate.png');
+      }
       createCircle(mymap, station[0], station[1], 'blue', 'MODERATE');
       break;
     case 'H':
-      document.getElementById(station[2]).setAttribute('src', './img/high.png');
+      if(station[2] != null) {
+        document.getElementById(station[2]).setAttribute('src', './img/high.png');
+      }
       createCircle(mymap, station[0], station[1], 'yellow', 'HIGH');
       break;
     case 'V':
-      document.getElementById(station[2]).setAttribute('src', './img/veryhigh.png');
+      if(station[2] != null) {
+        document.getElementById(station[2]).setAttribute('src', './img/veryhigh.png');
+      }
       createCircle(mymap, station[0], station[1], 'orange', 'VERY HIGH');
       break;
     case 'E':
-      document.getElementById(station[2]).setAttribute('src', './img/extreme.png');
+      if(station[2] != null) {
+        document.getElementById(station[2]).setAttribute('src', './img/extreme.png');
+      }
       createCircle(mymap, station[0], station[1], 'red', 'EXTREME');
       break;
   }
@@ -94,5 +104,5 @@ function createCircle(mymap, name, loc, color, label) {
     fillOpacity: 0.5,
     radius: 5000
   }).addTo(mymap);
-  circle.bindPopup(name + ': \n' + label);
+  circle.bindPopup(name + ': ' + label);
 }
