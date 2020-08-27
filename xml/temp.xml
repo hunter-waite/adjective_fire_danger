@@ -5,6 +5,222 @@
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
       <longitude>-119.7732</longitude>
+      <nfdr_dt>08/27/2020</nfdr_dt>
+      <nfdr_tm>13</nfdr_tm>
+      <nfdr_type>F</nfdr_type>
+      <mp>1</mp>
+      <msgc>7A1A2</msgc>
+      <one_hr>3.97</one_hr>
+      <ten_hr>4</ten_hr>
+      <hu_hr>8.82</hu_hr>
+      <th_hr>6.34</th_hr>
+      <xh_hr>6.34</xh_hr>
+      <ic>43.9</ic>
+      <kbdi>480</kbdi>
+      <sc>103.4</sc>
+      <ec>2.7</ec>
+      <bi>40.5</bi>
+      <sl>3 </sl>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>29</fl>
+      <hrb>4</hrb>
+      <wdy>60</wdy>
+      <herb_gsi>0</herb_gsi>
+      <woody_gsi>0</woody_gsi>
+      <adj>M </adj>
+   </row>
+   <row num="2">
+      <sta_id>44916</sta_id>
+      <sta_nm>CARRIZO</sta_nm>
+      <latitude>  35.0965</latitude>
+      <longitude>-119.7732</longitude>
+      <nfdr_dt>08/27/2020</nfdr_dt>
+      <nfdr_tm>13</nfdr_tm>
+      <nfdr_type>F</nfdr_type>
+      <mp>2</mp>
+      <msgc>7G1A2</msgc>
+      <one_hr>3.97</one_hr>
+      <ten_hr>4</ten_hr>
+      <hu_hr>8.82</hu_hr>
+      <th_hr>6.34</th_hr>
+      <xh_hr>6.34</xh_hr>
+      <ic>48.6</ic>
+      <kbdi>480</kbdi>
+      <sc>12.6</sc>
+      <ec>79.8</ec>
+      <bi>72.4</bi>
+      <sl>3 </sl>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>51</fl>
+      <hrb>4</hrb>
+      <wdy>60</wdy>
+      <herb_gsi>0</herb_gsi>
+      <woody_gsi>0</woody_gsi>
+      <adj>H </adj>
+   </row>
+   <row num="3">
+      <sta_id>44916</sta_id>
+      <sta_nm>CARRIZO</sta_nm>
+      <latitude>  35.0965</latitude>
+      <longitude>-119.7732</longitude>
+      <nfdr_dt>08/27/2020</nfdr_dt>
+      <nfdr_tm>13</nfdr_tm>
+      <nfdr_type>F</nfdr_type>
+      <mp>3</mp>
+      <msgc>16V1A </msgc>
+      <one_hr>11.78</one_hr>
+      <ten_hr>10.3</ten_hr>
+      <hu_hr>13.09</hu_hr>
+      <th_hr>10.65</th_hr>
+      <xh_hr>-99.99</xh_hr>
+      <ic>13.3</ic>
+      <kbdi>480</kbdi>
+      <sc>43.6</sc>
+      <ec>1.7</ec>
+      <bi>21.8</bi>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>15</fl>
+      <hrb>30</hrb>
+      <wdy>60</wdy>
+      <herb_gsi>0.3</herb_gsi>
+      <woody_gsi>0.3</woody_gsi>
+   </row>
+   <row num="4">
+      <sta_id>44916</sta_id>
+      <sta_nm>CARRIZO</sta_nm>
+      <latitude>  35.0965</latitude>
+      <longitude>-119.7732</longitude>
+      <nfdr_dt>08/27/2020</nfdr_dt>
+      <nfdr_tm>13</nfdr_tm>
+      <nfdr_type>F</nfdr_type>
+      <mp>4</mp>
+      <msgc>16W1A </msgc>
+      <one_hr>11.78</one_hr>
+      <ten_hr>10.3</ten_hr>
+      <hu_hr>13.09</hu_hr>
+      <th_hr>10.65</th_hr>
+      <xh_hr>-99.99</xh_hr>
+      <ic>13.1</ic>
+      <kbdi>480</kbdi>
+      <sc>24.4</sc>
+      <ec>4.1</ec>
+      <bi>25</bi>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>18</fl>
+      <hrb>30</hrb>
+      <wdy>60</wdy>
+      <herb_gsi>0.3</herb_gsi>
+      <woody_gsi>0.3</woody_gsi>
+   </row>
+   <row num="5">
+      <sta_id>44916</sta_id>
+      <sta_nm>CARRIZO</sta_nm>
+      <latitude>  35.0965</latitude>
+      <longitude>-119.7732</longitude>
+      <nfdr_dt>08/27/2020</nfdr_dt>
+      <nfdr_tm>13</nfdr_tm>
+      <nfdr_type>F</nfdr_type>
+      <mp>5</mp>
+      <msgc>16X1A </msgc>
+      <one_hr>11.78</one_hr>
+      <ten_hr>10.3</ten_hr>
+      <hu_hr>13.09</hu_hr>
+      <th_hr>10.65</th_hr>
+      <xh_hr>-99.99</xh_hr>
+      <ic>17.8</ic>
+      <kbdi>480</kbdi>
+      <sc>75.7</sc>
+      <ec>63</ec>
+      <bi>148.1</bi>
+      <sl>3 </sl>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>100</fl>
+      <hrb>30</hrb>
+      <wdy>60</wdy>
+      <herb_gsi>0.3</herb_gsi>
+      <woody_gsi>0.3</woody_gsi>
+      <adj>M </adj>
+   </row>
+   <row num="6">
+      <sta_id>44916</sta_id>
+      <sta_nm>CARRIZO</sta_nm>
+      <latitude>  35.0965</latitude>
+      <longitude>-119.7732</longitude>
+      <nfdr_dt>08/27/2020</nfdr_dt>
+      <nfdr_tm>13</nfdr_tm>
+      <nfdr_type>F</nfdr_type>
+      <mp>6</mp>
+      <msgc>16Y1A </msgc>
+      <one_hr>11.78</one_hr>
+      <ten_hr>10.3</ten_hr>
+      <hu_hr>13.09</hu_hr>
+      <th_hr>10.65</th_hr>
+      <xh_hr>-99.99</xh_hr>
+      <ic>15.3</ic>
+      <kbdi>480</kbdi>
+      <sc>2.7</sc>
+      <ec>49.6</ec>
+      <bi>28.6</bi>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>20</fl>
+      <hrb>30</hrb>
+      <wdy>60</wdy>
+      <herb_gsi>0.3</herb_gsi>
+      <woody_gsi>0.3</woody_gsi>
+   </row>
+   <row num="7">
+      <sta_id>44916</sta_id>
+      <sta_nm>CARRIZO</sta_nm>
+      <latitude>  35.0965</latitude>
+      <longitude>-119.7732</longitude>
+      <nfdr_dt>08/27/2020</nfdr_dt>
+      <nfdr_tm>13</nfdr_tm>
+      <nfdr_type>F</nfdr_type>
+      <mp>7</mp>
+      <msgc>16Z1A </msgc>
+      <one_hr>11.78</one_hr>
+      <ten_hr>10.3</ten_hr>
+      <hu_hr>13.09</hu_hr>
+      <th_hr>10.65</th_hr>
+      <xh_hr>-99.99</xh_hr>
+      <ic>15.9</ic>
+      <kbdi>480</kbdi>
+      <sc>11.1</sc>
+      <ec>89.2</ec>
+      <bi>71.9</bi>
+      <lr>0</lr>
+      <lo>0</lo>
+      <hr>0</hr>
+      <ho>0</ho>
+      <fl>51</fl>
+      <hrb>30</hrb>
+      <wdy>60</wdy>
+      <herb_gsi>0.3</herb_gsi>
+      <woody_gsi>0.3</woody_gsi>
+   </row>
+   <row num="8">
+      <sta_id>44916</sta_id>
+      <sta_nm>CARRIZO</sta_nm>
+      <latitude>  35.0965</latitude>
+      <longitude>-119.7732</longitude>
       <nfdr_dt>08/26/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
       <nfdr_type>F</nfdr_type>
@@ -32,7 +248,7 @@
       <woody_gsi>0</woody_gsi>
       <adj>H </adj>
    </row>
-   <row num="2">
+   <row num="9">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -64,7 +280,7 @@
       <woody_gsi>0</woody_gsi>
       <adj>M </adj>
    </row>
-   <row num="3">
+   <row num="10">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -96,7 +312,7 @@
       <woody_gsi>0</woody_gsi>
       <adj>H </adj>
    </row>
-   <row num="4">
+   <row num="11">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -128,7 +344,7 @@
       <woody_gsi>0</woody_gsi>
       <adj>M </adj>
    </row>
-   <row num="5">
+   <row num="12">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -158,7 +374,7 @@
       <herb_gsi>0.31</herb_gsi>
       <woody_gsi>0.31</woody_gsi>
    </row>
-   <row num="6">
+   <row num="13">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -188,7 +404,7 @@
       <herb_gsi>0.34</herb_gsi>
       <woody_gsi>0.34</woody_gsi>
    </row>
-   <row num="7">
+   <row num="14">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -218,7 +434,7 @@
       <herb_gsi>0.31</herb_gsi>
       <woody_gsi>0.31</woody_gsi>
    </row>
-   <row num="8">
+   <row num="15">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -248,7 +464,7 @@
       <herb_gsi>0.34</herb_gsi>
       <woody_gsi>0.34</woody_gsi>
    </row>
-   <row num="9">
+   <row num="16">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -280,7 +496,7 @@
       <woody_gsi>0.31</woody_gsi>
       <adj>M </adj>
    </row>
-   <row num="10">
+   <row num="17">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -312,7 +528,7 @@
       <woody_gsi>0.34</woody_gsi>
       <adj>M </adj>
    </row>
-   <row num="11">
+   <row num="18">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -342,7 +558,7 @@
       <herb_gsi>0.31</herb_gsi>
       <woody_gsi>0.31</woody_gsi>
    </row>
-   <row num="12">
+   <row num="19">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -372,7 +588,7 @@
       <herb_gsi>0.34</herb_gsi>
       <woody_gsi>0.34</woody_gsi>
    </row>
-   <row num="13">
+   <row num="20">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -402,7 +618,7 @@
       <herb_gsi>0.31</herb_gsi>
       <woody_gsi>0.31</woody_gsi>
    </row>
-   <row num="14">
+   <row num="21">
       <sta_id>44916</sta_id>
       <sta_nm>CARRIZO</sta_nm>
       <latitude>  35.0965</latitude>
@@ -431,437 +647,5 @@
       <wdy>60</wdy>
       <herb_gsi>0.34</herb_gsi>
       <woody_gsi>0.34</woody_gsi>
-   </row>
-   <row num="15">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>F</nfdr_type>
-      <mp>1</mp>
-      <msgc>7A1A2</msgc>
-      <one_hr>3.75</one_hr>
-      <ten_hr>5</ten_hr>
-      <hu_hr>7.48</hu_hr>
-      <th_hr>5.91</th_hr>
-      <xh_hr>5.91</xh_hr>
-      <ic>37.6</ic>
-      <kbdi>472</kbdi>
-      <sc>69.9</sc>
-      <ec>2.8</ec>
-      <bi>34.3</bi>
-      <sl>3 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>24</fl>
-      <hrb>3.7</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0</herb_gsi>
-      <woody_gsi>0</woody_gsi>
-      <adj>M </adj>
-   </row>
-   <row num="16">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>O</nfdr_type>
-      <mp>1</mp>
-      <msgc>7A1A2</msgc>
-      <one_hr>5.58</one_hr>
-      <ten_hr>6.05</ten_hr>
-      <hu_hr>7.92</hu_hr>
-      <th_hr>5.97</th_hr>
-      <xh_hr>5.97</xh_hr>
-      <ic>30.3</ic>
-      <kbdi>476</kbdi>
-      <sc>91.7</sc>
-      <ec>2.1</ec>
-      <bi>34</bi>
-      <sl>3 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>24</fl>
-      <hrb>5.6</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0</herb_gsi>
-      <woody_gsi>0</woody_gsi>
-      <adj>M </adj>
-   </row>
-   <row num="17">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>F</nfdr_type>
-      <mp>2</mp>
-      <msgc>7G1A2</msgc>
-      <one_hr>3.75</one_hr>
-      <ten_hr>5</ten_hr>
-      <hu_hr>7.48</hu_hr>
-      <th_hr>5.91</th_hr>
-      <xh_hr>5.91</xh_hr>
-      <ic>44.7</ic>
-      <kbdi>472</kbdi>
-      <sc>9.8</sc>
-      <ec>83.3</ec>
-      <bi>65.8</bi>
-      <sl>3 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>47</fl>
-      <hrb>3.7</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0</herb_gsi>
-      <woody_gsi>0</woody_gsi>
-      <adj>M </adj>
-   </row>
-   <row num="18">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>O</nfdr_type>
-      <mp>2</mp>
-      <msgc>7G1A2</msgc>
-      <one_hr>5.58</one_hr>
-      <ten_hr>6.05</ten_hr>
-      <hu_hr>7.92</hu_hr>
-      <th_hr>5.97</th_hr>
-      <xh_hr>5.97</xh_hr>
-      <ic>37.6</ic>
-      <kbdi>476</kbdi>
-      <sc>14.1</sc>
-      <ec>79.8</ec>
-      <bi>76.3</bi>
-      <sl>3 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>54</fl>
-      <hrb>5.6</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0</herb_gsi>
-      <woody_gsi>0</woody_gsi>
-      <adj>M </adj>
-   </row>
-   <row num="19">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>F</nfdr_type>
-      <mp>3</mp>
-      <msgc>16V1A </msgc>
-      <one_hr>10.99</one_hr>
-      <ten_hr>10.55</ten_hr>
-      <hu_hr>8.72</hu_hr>
-      <th_hr>7.69</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>14</ic>
-      <kbdi>472</kbdi>
-      <sc>35.5</sc>
-      <ec>2.2</ec>
-      <bi>22.2</bi>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>16</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.3</herb_gsi>
-      <woody_gsi>0.3</woody_gsi>
-   </row>
-   <row num="20">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>N</nfdr_type>
-      <mp>3</mp>
-      <msgc>16V1A </msgc>
-      <one_hr>7.87</one_hr>
-      <ten_hr>12.53</ten_hr>
-      <hu_hr>14.16</hu_hr>
-      <th_hr>9.27</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>31.7</ic>
-      <kbdi>476</kbdi>
-      <sc>85.1</sc>
-      <ec>4.4</ec>
-      <bi>46</bi>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>33</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.33</herb_gsi>
-      <woody_gsi>0.33</woody_gsi>
-   </row>
-   <row num="21">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>F</nfdr_type>
-      <mp>4</mp>
-      <msgc>16W1A </msgc>
-      <one_hr>10.99</one_hr>
-      <ten_hr>10.55</ten_hr>
-      <hu_hr>8.72</hu_hr>
-      <th_hr>7.69</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>13.7</ic>
-      <kbdi>472</kbdi>
-      <sc>19.6</sc>
-      <ec>4.8</ec>
-      <bi>24.3</bi>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>17</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.3</herb_gsi>
-      <woody_gsi>0.3</woody_gsi>
-   </row>
-   <row num="22">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>N</nfdr_type>
-      <mp>4</mp>
-      <msgc>16W1A </msgc>
-      <one_hr>7.87</one_hr>
-      <ten_hr>12.53</ten_hr>
-      <hu_hr>14.16</hu_hr>
-      <th_hr>9.27</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>28.6</ic>
-      <kbdi>476</kbdi>
-      <sc>39.9</sc>
-      <ec>6.8</ec>
-      <bi>39.7</bi>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>28</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.33</herb_gsi>
-      <woody_gsi>0.33</woody_gsi>
-   </row>
-   <row num="23">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>F</nfdr_type>
-      <mp>5</mp>
-      <msgc>16X1A </msgc>
-      <one_hr>10.99</one_hr>
-      <ten_hr>10.55</ten_hr>
-      <hu_hr>8.72</hu_hr>
-      <th_hr>7.69</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>18.3</ic>
-      <kbdi>472</kbdi>
-      <sc>58.2</sc>
-      <ec>65.7</ec>
-      <bi>133.9</bi>
-      <sl>3 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>95</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.3</herb_gsi>
-      <woody_gsi>0.3</woody_gsi>
-      <adj>M </adj>
-   </row>
-   <row num="24">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>N</nfdr_type>
-      <mp>5</mp>
-      <msgc>16X1A </msgc>
-      <one_hr>7.87</one_hr>
-      <ten_hr>12.53</ten_hr>
-      <hu_hr>14.16</hu_hr>
-      <th_hr>9.27</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>35.7</ic>
-      <kbdi>476</kbdi>
-      <sc>106.4</sc>
-      <ec>75.7</ec>
-      <bi>188.6</bi>
-      <sl>3 </sl>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>100</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.33</herb_gsi>
-      <woody_gsi>0.33</woody_gsi>
-      <adj>M </adj>
-   </row>
-   <row num="25">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>F</nfdr_type>
-      <mp>6</mp>
-      <msgc>16Y1A </msgc>
-      <one_hr>10.99</one_hr>
-      <ten_hr>10.55</ten_hr>
-      <hu_hr>8.72</hu_hr>
-      <th_hr>7.69</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>16.6</ic>
-      <kbdi>472</kbdi>
-      <sc>2.3</sc>
-      <ec>64.2</ec>
-      <bi>30.1</bi>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>21</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.3</herb_gsi>
-      <woody_gsi>0.3</woody_gsi>
-   </row>
-   <row num="26">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>N</nfdr_type>
-      <mp>6</mp>
-      <msgc>16Y1A </msgc>
-      <one_hr>7.87</one_hr>
-      <ten_hr>12.53</ten_hr>
-      <hu_hr>14.16</hu_hr>
-      <th_hr>9.27</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>31</ic>
-      <kbdi>476</kbdi>
-      <sc>3.8</sc>
-      <ec>53.9</ec>
-      <bi>34.7</bi>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>25</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.33</herb_gsi>
-      <woody_gsi>0.33</woody_gsi>
-   </row>
-   <row num="27">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>F</nfdr_type>
-      <mp>7</mp>
-      <msgc>16Z1A </msgc>
-      <one_hr>10.99</one_hr>
-      <ten_hr>10.55</ten_hr>
-      <hu_hr>8.72</hu_hr>
-      <th_hr>7.69</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>16.5</ic>
-      <kbdi>472</kbdi>
-      <sc>8.7</sc>
-      <ec>108.2</ec>
-      <bi>70.3</bi>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>50</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.3</herb_gsi>
-      <woody_gsi>0.3</woody_gsi>
-   </row>
-   <row num="28">
-      <sta_id>44916</sta_id>
-      <sta_nm>CARRIZO</sta_nm>
-      <latitude>  35.0965</latitude>
-      <longitude>-119.7732</longitude>
-      <nfdr_dt>08/25/2020</nfdr_dt>
-      <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>N</nfdr_type>
-      <mp>7</mp>
-      <msgc>16Z1A </msgc>
-      <one_hr>7.87</one_hr>
-      <ten_hr>12.53</ten_hr>
-      <hu_hr>14.16</hu_hr>
-      <th_hr>9.27</th_hr>
-      <xh_hr>-99.99</xh_hr>
-      <ic>33.4</ic>
-      <kbdi>476</kbdi>
-      <sc>16.6</sc>
-      <ec>94.5</ec>
-      <bi>88.9</bi>
-      <lr>0</lr>
-      <lo>0</lo>
-      <hr>0</hr>
-      <ho>0</ho>
-      <fl>63</fl>
-      <hrb>30</hrb>
-      <wdy>60</wdy>
-      <herb_gsi>0.33</herb_gsi>
-      <woody_gsi>0.33</woody_gsi>
    </row>
 </nfdrs>
