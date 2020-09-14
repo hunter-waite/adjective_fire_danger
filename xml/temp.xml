@@ -39,7 +39,7 @@
       <longitude>-119.7732</longitude>
       <nfdr_dt>09/14/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>R</nfdr_type>
+      <nfdr_type>O</nfdr_type>
       <mp>1</mp>
       <msgc>7A1A2</msgc>
       <one_hr>2.43</one_hr>
@@ -103,7 +103,7 @@
       <longitude>-119.7732</longitude>
       <nfdr_dt>09/14/2020</nfdr_dt>
       <nfdr_tm>13</nfdr_tm>
-      <nfdr_type>R</nfdr_type>
+      <nfdr_type>O</nfdr_type>
       <mp>2</mp>
       <msgc>7G1A2</msgc>
       <one_hr>2.43</one_hr>
