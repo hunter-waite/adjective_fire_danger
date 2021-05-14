@@ -1,6 +1,6 @@
 # **Adjective Fire Danger/Smokey Bear**
 
-View the final product [here!](slocountyfire.org/adjective_fire_danger)
+View the final product [here!](http://slocountyfire.org/adjective_fire_danger)
 
 Pulls Data from the RAWS (Remote Automated Weather Stations) and uses the most recent adjective fire rating
 to determine fire danger for that specific day.
